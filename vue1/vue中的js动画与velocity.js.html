@@ -1,0 +1,52 @@
+<!Doctype>
+<html>
+  <head>
+     <meta charset="UTF-8">
+     <title>vue中的css,transition过渡动画</title>
+     <script src="./vue.js"></script>
+     <link rel="stylesheet" type="text/css" href="./animate.css">
+    
+  </head>
+  <body>
+     <div id="root">
+        <transition 
+             name="fade" 
+             @before-enter="handeleBeforeEnter"
+             @enter="handleEnter"
+             @after-enter="handleAfterEnter" 
+         >
+              <div v-show="show">hello word</div>
+        </transition>
+        <button @click="handleClick">toggle</button>
+     </div>
+     <script>
+         var vm=new Vue({
+         	el:"#root",
+         	data:{
+         		show:true
+         	},
+         	methods:{
+         		handleClick:function(){
+         			this.show=!this.show
+         		},
+            handeleBeforeEnter:function(el){
+                 el.style.color="red"
+            },
+            handleEnter:function(el,done){
+              setTimeout(function(){
+                  el.style.color="green"
+              },2000)
+
+              setTimeout(function(){
+                done()
+              },4000)
+            },
+            handleAfterEnter:function(el){
+                  el.style.color="black"
+            }
+         	}
+
+         })
+     </script>
+  </body>
+</html>
