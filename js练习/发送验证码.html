@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>发送验证码</title>
+     
+    </head>
+    <body>
+        <form>
+          <input type="text" value='' id="input" oninput=fun() />
+          <button type="button" value='获取验证码' disabled="disabled" id="button">获取验证码</button>
+        </form>
+    
+    </body>
+    <script>
+       var input = document.getElementById("input");
+       var button = document.getElementById("button");
+      //初始化按钮和输入框
+       input.onclick=function(){
+       	input.value = '';
+       	button.disabled = true;
+      
+       }
+       //验证手机号码是否正确
+        function fun(){
+        var text = input.value;
+       	//手机号码的正则表达式
+       	var phone= /^1[3-9][0-9]{9}$/
+       	 if(phone.test(text)){
+       	 	button.disabled = false;
+         }
+         
+      } 
+      	
+      //倒计时
+        button.onclick=function(){
+        	var i=60;
+        var setIntervalId = setInterval(function(){
+       
+       	button.innerHTML = "重新发送" + i + "s"
+       	i--;
+       	button.disabled = true;
+       if(i==-1){
+       		clearInterval(setIntervalId);
+       		button.innerHTML="重新发送";
+       		button.disabled = false;
+            
+       	}
+
+       },1000);
+
+       }
+
+    </script>
+</html>
