@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+   <head>
+       <meta charset = "UTF-8">
+       <title>getStyle函数</title>
+       <style>
+          #box{
+          	width:100px;
+            height:100px;
+            background-color: red;
+          }
+       </style>
+    </head>
+    <body>
+        <div id="box"></div>
+        <script>
+             var box = document.getElementById("box");
+             var getStyle = function (obj,style){
+             	if(document.defaultView.getComputedStyle){
+             	      var getstyle = document.defaultView.getComputedStyle(obj,null)[style];
+             	        
+               }else{
+             	    getstyle = obj.currentStyle[style]
+               }
+                 return getstyle;
+             }
+        var boxstyle=getStyle(box,"width");
+        alert(boxstyle);
+        </script>
+           
+    </body>
+ </html>
