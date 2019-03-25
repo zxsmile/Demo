@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>深复制与浅复制</title>
+      
+    </head>
+    <body>
+      
+    <script>
+    /* function copy(obj){
+            var obj1 = Array.isArray(obj)? [] : {};
+            if( typeof obj === 'object'){
+                for(var name in obj){
+                  obj1[name] = obj[name];
+                }
+            }
+          return obj1;
+       }
+        var str = {a:{a: "hello", b: 21}};
+        var obj1 = copy(str);
+        obj1.a.a=20
+        console.log(str);
+       console.log(obj1);
+      var obj = {
+           a: "hello",
+           b:{
+              a:"world",
+              b:"21"
+           },
+           c:["red","blue","green"]
+       };
+
+       var obj1 = copy(obj);
+       console.log(obj);
+       console.log(obj1);
+       */
+    function deepcopy(obj){
+          var obj1 = Array.isArray(obj)? [] : {};
+          if(obj && typeof obj === 'object'){
+          for(var name in obj){
+               var prop = obj[name];
+               if(prop && typeof prop === 'object'){
+                    obj1[name] = arguments.callee(prop);
+                  } else {
+                    obj1[name] = prop;
+                    
+                   }
+              }
+            }
+              return obj1;    
+      }
+
+      var str = {a:{a: "hello", b: 21}};
+    
+    var strcope = deepcopy(str);
+    strcope.a.b = "Tom";
+      console.log(str);
+      console.log(strcope);
+    </script>
+    </body>
+</html>

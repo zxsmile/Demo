@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>布局练习</title>
+        <style>
+           *{
+           	 margin:0;
+           	 padding:0;
+           }
+           .box{
+           	 display:flex;
+             flex-direction: column;
+           	  
+           }
+           .box1{
+           	  
+           	  
+              height: 100px;
+              background-color:gray;
+             
+             
+           }
+           .box2{
+           	 
+               display:flex;
+           	  flex-direction:row;
+
+           }
+           .box3{
+               height: 100px;
+              background-color: gray;
+           
+           }
+           .box4{
+           	background-color:blue;
+           	width:200px;
+           	 height: 500px;
+           }
+           .box5{
+           	 background-color:green;
+           	 flex-grow: 1;
+             height: 500px;
+           }
+           .box6{
+           	background-color:orange;
+           	width:200px;
+           	height: 500px;
+           }
+        </style>
+    </head>
+    <body>
+      <div class="box">
+        <div class="box1"></div>
+        <div class="box2">
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+
+        </div>
+        <div class="box3"></div>
+        
+       
+      </div>
+
+    </body>
+    </html>
