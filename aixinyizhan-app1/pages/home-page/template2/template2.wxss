@@ -1,7 +1,0 @@
-@import "../template1/template1.wxss";
-.template2{
-  display: flex;
-  flex:0 0 33.3333%;
-  flex-wrap: wrap;
-  
-}
