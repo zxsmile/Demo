@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+   <head>
+   <meta charset="UTF-8">
+   <title>url</title>
+   </head>
+   <body>
+
+     <script>
+
+         var url = "www.frrrrrrr?key0=a&key1=b&key2=c"
+         var newurl = [];
+           newurl = url.split('?');
+         var url1=newurl[1];
+         var url2=url1.split('&');
+          var url3=[];
+         function fun(){
+          var urlob = {}
+          for(var i=0;i<url2.length;i++){
+             url3 = url2[i].split('=');
+            //var url4.push(url3);  
+  
+                urlob[url3[0]]=url3[1];
+                // urlob[url3[0]]=i;
+
+             
+            
+           }
+
+          return urlob;
+         }
+
+   //fun()
+         console.log(fun())
+       
+     </script>    
+   </body>
+</html>

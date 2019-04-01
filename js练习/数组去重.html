@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+   <head>
+   <meta charset="UTF-8">
+   <title>数组去重</title>
+   </head>
+   <body>
+
+     <script>
+
+         function arr(obj){
+           for(var i=0;i<obj.length;i++){
+                for(var j=i+1;j<obj.length;j++){
+                	if(typeof obj[j] !== 'object' && typeof obj[i] !== 'object'){
+                		if(obj[i]===obj[j]){
+                              obj.splice(j,1);
+                            }
+                	}
+                   // if(typeof obj[j] === 'object' && typeof obj[i] === 'object'){
+                		
+                		    //if(obj[i].length===obj[j].length){
+                		       //for(var k=0;k<obj[i].length;k++){
+                			      //if(obj[i][k]===obj[j][k]){
+                				       //obj.splice(j,1);
+                			        //}
+                		       // }  
+                            //}    
+                    //}
+                }           
+            }    
+                return obj;
+        }     
+             
+
+             
+           
+         
+
+         var ar=[1,2,[2,3,4],[2,3,4],1];
+         var ar1=arr(ar);
+         console.log(ar1);
+     </script>
+   </body>
+</html>
+
