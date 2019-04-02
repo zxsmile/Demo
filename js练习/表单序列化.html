@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <title>表单序列化</title>
+    </head>
+    <body>
+
+       <form id="form">
+         <input type="text" name="name" value=''>
+         <input type="text" name="name" value=''>
+         <select type="select-one" name="name" id="select">
+            <option name='name' value="上海">上海</option>
+            <option name='name' value="西安">西安</option>
+            <option name='name' value="香港">香港</option>
+            <option name='name' value="成都" >成都</option>
+       </select>
+       </form>
+       <script>
+          function serialize(form){
+            var parts=[],field=null,i,len,j,optLen,option,optValue;
+            for(i=0,len=form.elements.length;i<len;i++){
+              field = form.elements[i];
+              switch(field.type){
+                case "select-one":
+                case "select-multiple":
+                if(field.name.length){
+                  for(j=0,optLen=field.options.length;j<optLen;j++){
+                    option = field.options[j];
+                    if(option.selectd){
+                      optValue = "";
+                      if(option.hasAttribute){
+                        optValue=(option.hasAttribute('value')?option.value:option.text);
+                      }else{
+                        optValue=(option.attributes["value"].specified ? option.value:option.text);
+                      }
+                      parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
+                    }
+                  }
+                }
+                break;
+                case undefined:
+                case "file":
+                case "submit":
+                case "reset":
+                case "button":
+                    break;
+                case "radio":
+                case "checkbox":
+                     if(!field.checked){
+                      break;
+                     }
+                default:
+                     if(field.name.length){
+                          parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
+                     }
+              }
+            }
+            return parts.join("&");
+          }
+
+          var form = document.getElementById("form");
+          var select = document.getElementById("select");
+          console.log(form);
+         var data =serialize(form);
+          console.log(data);
+        // console.log(select.options[1].hasAttribute("value"))
+       </script>
+    </body>
+</html>
