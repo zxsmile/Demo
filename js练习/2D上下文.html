@@ -5,7 +5,8 @@
        <title>2d上下文</title>
     </head>
     <body>
-       <canvas id="drawing" height="200" width="200">A drawing of something.</canvas>
+       <img src="./images/lovely5.jpg" style="width:500px;height:300px"/>
+       <canvas id="drawing" height="300" width="500">A drawing of something.</canvas>
        <script>
            var drawing = document.getElementById("drawing");
            if(drawing.getContext){
@@ -57,7 +58,7 @@
                  gradient.addColorStop(0,"white");
                  gradient.addColorStop(1,"black");
                  context.fillStyle = gradient;
-                 context.fillRect(30,30,50,50);*/
+                 context.fillRect(30,30,50,50);
             //整个矩形渐变
             function createLinearGradient(context,x,y,width,height){
                 return context.createLinearGradient(x,y,x+width,y+height);
@@ -66,7 +67,30 @@
                  gradient.addColorStop(0,"white");
                  gradient.addColorStop(1,"black");
                  context.fillStyle = gradient;
-                 context.fillRect(30,30,50,50);
+                 context.fillRect(30,30,50,50);*/
+            //得到图像的黑白效果
+            var image = document.images[0],imageData,data,i,len,average,red,green,blue,alpha;
+            //绘制原始图像
+            context.drawImage(image,0,0);
+            //取得图像数据
+            imageData = context.getImageData(0,0,image.width,image.height);
+            data = imageData.data;
+            for(i=0,len=data.length;i<len;i+=4){
+                red = data[i];
+                green = data[i+1];
+                blue=data[i+2];
+                alpha=data[i+3];
+                //求得rgb平均值
+                average=Math.floor((red+green+blue)/3);
+                //设置颜色值透明度不变
+                data[i] = average;
+                data[i+1]=average;
+                data[i+2]=average;
+            }
+            //回写图像数据并显示结果
+            imageData.data = data;
+            context.putImageData(imageData,0,0);
+
         }
        </script>
     </body>
