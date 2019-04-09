@@ -8,12 +8,12 @@
 
        <form id="form">
          <input type="text" name="name" value=''>
-         <input type="text" name="name" value=''>
-         <select type="select-one" name="name" id="select">
-            <option name='name' value="上海">上海</option>
-            <option name='name' value="西安">西安</option>
-            <option name='name' value="香港">香港</option>
-            <option name='name' value="成都" >成都</option>
+         <input type="text" name="name" value=''>n
+         <select type="select-one" name="city" id="select">
+            <option value="上海">上海</option>
+            <option value="西安">西安</option>
+            <option value="香港">香港</option>
+            <option value="成都" >成都</option>
        </select>
        </form>
        <script>
@@ -30,11 +30,14 @@
                     if(option.selectd){
                       optValue = "";
                       if(option.hasAttribute){
-                        optValue=(option.hasAttribute('value')?option.value:option.text);
+                        optValue=(option.hasAttribute("value") ? option.value : option.text);
+                        console.log(optValue);
                       }else{
-                        optValue=(option.attributes["value"].specified ? option.value:option.text);
+                        optValue=(option.attributes["value"].specified ? option.value : option.text);
+                        console.log(optValue);
                       }
                       parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
+                       console.log( parts);
                     }
                   }
                 }
@@ -52,7 +55,7 @@
                      }
                 default:
                      if(field.name.length){
-                          parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
+                          parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(field.value));
                      }
               }
             }
@@ -60,11 +63,9 @@
           }
 
           var form = document.getElementById("form");
-          var select = document.getElementById("select");
-          console.log(form);
-         var data =serialize(form);
+          var data =serialize(form);
           console.log(data);
-        // console.log(select.options[1].hasAttribute("value"))
+        
        </script>
     </body>
 </html>

@@ -5,14 +5,20 @@
        <title>富文本编辑</title>
     </head>
     <body>
-       <iframe name="richedit" style="height:100px;width:100px;" src="blank.htm"></iframe>
+      
        <script type="text/javascript">
-          window.onload=function(){
-                frames["richedit"].document.designMode = "on";
-           };
+         // window.onload=function(){
+           //     frames["richedit"].document.designMode = "on";
+           //};
            //frames["richedit"].document.execCommand("bold",false,null);
            //var font = frames["richedit"].document.queryCommandState("bold");
-           //console.log(font);
+           //console.log(font); 
+           
+
+          var prop = window.open("http://www.wrox.com/");
+          // var iframeWindow = document.getElementById("myframe").contentWindow;
+            prop.postMessage("A secret","http://www.wrox.com");
+
         </script>
     </body>
 </html>
