@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <title>XML</title>
+    </head>
+    <body>
+       <script>
+           //将XML解析为DOM文档
+         var parser = new DOMParser();
+            var xmldom = parser.parseFromString("<root><child/></root>","text/xml");
+            /*console.log(xmldom.documentElement.tagName);
+            console.log(xmldom.documentElement.firstChild.tagName);
+            var anotherChild = xmldom.createElement("child");
+            xmldom.documentElement.appendChild(anotherChild);
+            var children = xmldom.getElementsByTagName("child");
+            console.log(children.length);
+            //处理解析错误
+           var parser = new DOMParser();
+            try{
+            	var xmdom = parser.parseFromString("<root>","text/xml");
+            	errors = xmdom.getElementsByTagName("parsererror");
+            	if(errors.length>0)
+            		throw new Error("Parsing error !");
+            	}
+            } catch(ex){
+            	alert("Parsing error !");
+            }*/
+            //将DOM解析为XML文档
+            var serializer = new XMLSerializer();
+            var xml = serializer.serializeToString(xmldom);
+            console.log(xmldom.xml);
+       </script>
+    </body>

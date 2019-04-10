@@ -8,7 +8,7 @@
 
        <form id="form">
          <input type="text" name="name" value=''>
-         <input type="text" name="name" value=''>n
+         <input type="text" name="name" value=''>
          <select type="select-one" name="city" id="select">
             <option value="上海">上海</option>
             <option value="西安">西安</option>
@@ -27,17 +27,20 @@
                 if(field.name.length){
                   for(j=0,optLen=field.options.length;j<optLen;j++){
                     option = field.options[j];
-                    if(option.selectd){
+                    if(option.selected){
                       optValue = "";
                       if(option.hasAttribute){
+
+                       
                         optValue=(option.hasAttribute("value") ? option.value : option.text);
-                        console.log(optValue);
+                       
                       }else{
                         optValue=(option.attributes["value"].specified ? option.value : option.text);
-                        console.log(optValue);
+                    
                       }
+
                       parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
-                       console.log( parts);
+                     
                     }
                   }
                 }
