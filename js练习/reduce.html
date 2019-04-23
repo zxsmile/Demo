@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>reduce</title>
+    </head>
+    <body>
+        <script>
+            var values=[1,2,3,4,5];
+            var sum=values.reduce(function(prev,cur,index,array){
+                    return prev*2;
+            },3)
+            alert(sum);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="UTF-8">
+         <title>E4X</title>
+     </head>
+     <body>
+         <script>
+             var employess = <employees>
+                              <employee position="Software Engineer">
+                              <name>Nicholas C. Zakas</name>
+                              <employee position="Salesperson">
+                              <name>Jim Smith</name>
+                              </employee>
+                              </employee>
+                              </employees>
+                              console.log(employees.employee[0].name);
+                              console.log(employees.employee[1].name);
+         </script>
+     </body>
+</html>
