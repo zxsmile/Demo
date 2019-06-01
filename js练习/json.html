@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>json</title>
+    </head>
+    <body>
+       <script>
+          var book={
+               name:"javascript",
+               authors:[
+                   "Nicholas","Jone"
+               ],
+               school:{
+                   name:"xiyou"
+               },
+               edition:3,
+               year:2011,
+               releaseData: new Date("2019,5,6")
+          }
+        //    var jsonText = JSON.stringify(book,function(key,value){
+        //           switch(key){
+        //               case "authors":
+        //                     return value.join("|");
+        //                case "edition":
+        //                     return undefined;
+        //                case  "year":
+        //                     return 5000;
+        //                case "name":
+        //                     return "hello";
+        //                default:
+        //                     return value;
+        //           }
+        //    });
+        //    console.log(jsonText);
+        //    var bookCopy = JSON.parse(jsonText);
+        //    console.log(bookCopy);
+        // var jsonBook = JSON.stringify(book);
+        // console.log(jsonBook);
+        // var bookCopy = JSON.parse(jsonBook,function(key,value){
+        //     if(key == "releaseData"){
+        //         return new Date(value);
+        //     }else{
+        //         return value;
+        //     }
+        // })
+        // console.log(bookCopy.releaseData.toLocaleString());
+         var date = new Date("2019,5,6,21");
+         console.log(JSON.stringify(date));
+         console.log(date.toJSON());
+         console.log(date.toLocaleString())
+       </script>
+    </body>
+</html>

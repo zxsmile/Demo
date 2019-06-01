@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iframe</title>
+    </head>
+    <body>
+        <iframe src="iframe-content.html" width="400px" height="150px" frameborder="1"
+
+           scrolling="auto" id="frame1" name="ifr1">
+     
+       </iframe> 
+       <p>hello</p>
+<script>
+       
+    var iframe = document.getElementById("frame1"); 
+    
+   
+    iframe.onload=function(){
+         var iwindow = iframe.contentWindow;
+         var idocument = iframe.contentDocument;
+        //  console.log(window.frames['ifr1'].window);
+        //  console.dir(document.getElementById("frame1").contentWindow);
+    }
+   
+     
+ </script>
+        
+    </body>
+</html>

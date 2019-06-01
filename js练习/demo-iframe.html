@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>子页面demo13-iframe.html</title>
+    
+</head>
+ 
+<body>
+    <div id='objId' style='width:100px;height:100px;background-color:red;'>子页面</div>
+    <script type="text/javascript">
+
+        var _iframe = window.parent;
+        var _div =_iframe.document.getElementById('parDiv');
+        //console.log(_iframe);
+        console.log(_iframe.document);
+        console.log(_iframe)
+        console.log(_div)
+        _div.style.color = 'red';
+ 
+    </script>
+</body>
+</html>
