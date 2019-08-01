@@ -1,0 +1,43 @@
+#main div {
+padding-left: 10px;
+}
+#login {
+line-height: 28px;
+background: #CFF url(../img/login_bg.gif) repeat-x left bottom;
+height: 36px;
+}
+#live {
+text-align: center;
+}
+#live h1 {
+float: none;
+}
+#live p {
+line-height: 200%;
+}
+#lough {
+background: #FCC url(../img/lough_bg.gif) no-repeat;
+}
+#lough h1 {
+background: url(../img/b_01.gif) no-repeat left center;
+margin-bottom: 12px;
+}
+#main table {
+width: 437px;
+}
+#main td,
+#main th{
+padding: 5px 0 4px 16px;
+}
+#main th {
+background-color: #FFF;
+text-align: left;
+}
+#friends {
+background: #CFF url(../img/friends_bg.gif) repeat-x left top;
+margin-top: 4px;
+}
+#friends h1 {
+background: url(../img/b_02.gif) no-repeat left center;
+margin-bottom: 12px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>World-Word</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../style/ver_en.css" rel="stylesheet" type="text/css" />
+<link href="../style/basic_s.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+  <div id="logo"><a href="../index.html"><img src="../img/s_logo.gif" title="To Homepage" alt="Homepage" width="416" height="79" border="0" /></a></div>
+  <div id="ver"><!-- TemplateBeginEditable name="ver" --><img src="../img/ver_en.gif" width="68" height="16" /><!-- TemplateEndEditable --></div>
+</div>
+<div id="main">
+  <div id="box">
+    <div id="menu"><!-- #BeginLibraryItem "/Library/menu_en.lbi" -->
+      <ul>
+        <li><a href="../en_s1.html" title="Translation">Translation</a></li>
+        <li><a href="../en_s2.html" title="Web Design">Web Design</a></li>
+        <li><a href="../en_s3.html" title="Procedures">Procedures</a></li>
+        <li><a href="../en_s4.html" title="Payment">Payment</a></li>
+      </ul>
+    <!-- #EndLibraryItem --></div>
+    <div id="text">
+      <h1><!-- TemplateBeginEditable name="title" -->Title Here!<!-- TemplateEndEditable --></h1>
+      <!-- TemplateBeginEditable name="text" -->
+      <p>Text Here!!</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <!-- TemplateEndEditable --></div>
+    <div id="footer">Contact: <a href="mailto:service@world-word.com" title="Contact Us">service@world-word.com</a></div>
+  </div>
+</div>
+</body>
+
+</html>

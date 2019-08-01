@@ -1,0 +1,342 @@
+
+body {
+	background:transparent url(images/bg.png) repeat-x scroll 50% 0%;
+    border: 0 none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+	font-size:14px;
+	/*font-family:宋体;*/
+}
+
+#top{
+	width: 1002px; 
+	height: 441px; 
+	margin: 10px auto;
+	padding: 10px;
+	margin: 0 auto;
+    position: relative;
+	/*background-color:blue;*/
+}
+#top h1{
+	background:url(images/1291971802.jpg) no-repeat;
+	height:42px;
+}
+h1 span{
+	display:none;
+}
+#top form{
+	position:absolute;
+	right:0;
+	top:40px;
+}
+.input{
+    height: 18px;
+    line-height: 19px;
+    padding: 0px;
+    margin: 0px;
+    background: transparent none repeat scroll 0% 0%;
+    color: #767676;
+    width: 200px;
+	font: 12px Verdana,Arial,Helvetica,sans-
+}
+.button{
+	padding: 0px;
+    margin: 0px;
+	
+}
+#channelmenu {
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 38px;
+    padding: 0px;
+}
+.channelmenu_main
+{
+	display: block;
+    float: left;
+    color: #FFF;
+    width: 100px;
+    height: 38px;
+    text-decoration: none;
+    text-align: center;
+    font: 12px/40px Verdana,Arial,Helvetica,sans-serif;
+    margin: 0px;
+}
+.channelmenu_main a:hover{
+	background: transparent url("images/menunow.jpg") no-repeat scroll 0px 0px;
+}
+#top_img{
+	background:transparent url("images/1330924099.gif") no-repeat scroll 0px 0px;
+	width:1002px;
+	height:325px;
+	padding:0;
+	margin:0;
+	position: relative;
+}
+.img{
+	position:absolute;
+	top:43px;
+	padding:0;
+	left:8px;
+}
+#content{
+	width: 1002px;
+	height: 442px;
+	background: transparent url("images/cbg.gif") repeat-y scroll 0% 0%;
+	margin: 0px auto;
+}
+.content_left{
+	width:206px;
+	height:442px;
+	margin: 0px 0px 0px 4px;
+	padding:0px;
+	float:left;
+	/*background-color:red;*/
+}
+.content_right{
+	width:780px;
+	height:442px;
+	margin: 0px;
+	padding:0px;
+	float:right;
+	/*background-color:blue;*/
+}
+.pdv_boder{
+    border: 0px none;
+    height: 235px;
+    padding: 0px;
+    margin: 0px;
+}
+.title_1{
+    height: 42px;
+    border: 0px none;
+    padding: 0px;
+    margin: 0px auto;
+    background: transparent url("images/title-1.jpg") no-repeat scroll 0% 0%;
+}
+.productclass_dolphin{
+	margin: 0px;
+    padding: 10px 19px 15px 26px;
+	font: 12px Verdana,Arial,Helvetica,sans-serif;
+    color: #505050;
+    text-decoration: none;
+}
+a.productclass_dolphin{
+	display: block;
+    padding:0 0 0 35px;
+    font: 12px/27px Verdana,Arial,Helvetica,sans-serif;
+    height: 27px;
+    text-align: left;
+    background: transparent url("images/dot2.jpg") no-repeat scroll 0px 0px;
+    color: #000;
+}
+a.productclass_dolphin:hover{
+	color: red;
+}
+#guest,#contact,#phone{
+	margin:0 15px;
+}
+.about_us{
+	width:459px;
+	margin:0;
+	float:left;
+}
+.client_case{
+	width:233px;
+	margin:0;
+	/*background-color:yellow;*/
+	float:right;
+}
+.product{
+	width:100%;
+	height:100%;
+	margin:0;
+	clear:both;
+}
+.title2{
+    height: 42px;
+	width:459px;
+    border: 0px none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent url("images/title_2.jpg") no-repeat scroll 0% 0%;
+}
+.text{
+	width:457px;
+	font: 12px Verdana,Arial,Helvetica,sans-serif;
+	line-height: 22px;
+    color: #333;
+	text-align:justify;        
+    text-justify:inter-ideograph; 
+	text-indent:2em;
+
+}
+.text_img{
+	padding-right:15px;
+	float:left;
+}
+.title3{
+    height: 42px;
+	width:233px;
+    border: 0px none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent url("images/title-3.jpg") no-repeat scroll 0% 0%;
+
+}
+
+ul.newslist_time {
+	margin-top: 15px;
+    padding: 0px;
+}
+ li.newslist_time {
+    margin: 0px;
+    padding-left: 15px;
+    list-style-type: none;
+    height: 20px;
+	
+    background: transparent url("images/listt.jpg") no-repeat scroll 0px 1px;
+    color: #955A78;
+	text-decoration: none;
+}
+li.newslist_time  a{
+	text-indent: 0;
+	line-height:20px;
+	text-decoration: none;
+}
+ li.newslist_time .time {
+    float: right;
+    font: 10px/12px Verdana,Arial,Helvetica,sans-serif;
+    color: #9B9B9B;
+    padding: 0px;
+} 
+.title4{
+	height: 42px;
+	width:780px;
+    border: 0px none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent url("images/title-4.jpg") no-repeat scroll 0% 0%;
+}
+.blkproduct {
+    border: 0px none;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+	visibility: visible;
+}
+.leftbutton{
+    background: transparent url("images/roll.jpg") no-repeat scroll 0px 0px;
+    left: 0px;
+    float: left;
+    width: 6px;
+    cursor: pointer;
+    position: absolute;
+    height: 13px;
+    top: 49px;
+}
+.cont{
+    padding: 0px;
+    margin: 0px 0px 0px 7px;
+    text-align: center;
+    overflow: hidden;
+}
+ul.imglist{
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+}
+ul.imglist li{
+	float:left;
+	padding:2px 2px;
+	width:150px;
+	list-style-type: none;
+	margin:0;
+}
+ul.imglist img{
+	display:block;
+	width:140px;
+	height:103px;
+	border-width: 3px 1px;
+    border-style: solid;
+    border-color: #E2E2E4;
+	padding: 0px;
+    margin: 0px;
+}
+ul.imglist span{
+	display:block;
+	width:100%;
+	height:34px;
+	line-height:34px;
+	font: 12px Verdana,Arial,Helvetica,sans-serif;
+    color: #505050;
+    text-decoration: none;
+}
+.rightbutton{
+	background: transparent url("images/roll.jpg") no-repeat scroll -6px 0px;
+    right: 0px;
+    float: right;
+    width: 6px;
+    cursor: pointer;
+    position: absolute;
+    height: 13px;
+    top: 49px;
+}
+#bottom{
+	background: transparent url("images/1330925621.gif") no-repeat scroll -6px 0px;
+	width:1002px;
+	height:103px;
+	margin:0 auto;
+	padding:0;
+	position: relative;
+}
+#bottommenu {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    height: 28px;
+    color: #FFF;
+    font: 11px/28px SimSun;
+    text-align: center;
+	position: absolute;
+	left:20px;
+	top:10px;
+}
+
+#bottommenu a{
+    margin: 0;
+	padding:0px 0px 0px 3px;
+    color: #FFF;
+    font: 12px/28px "SimSun",Arial,sans-serif;
+    text-decoration: none;
+	border-left:1px #aaa solid;
+	
+
+}
+#bottommenu a:hover{
+	text-decoration: underline;
+}
+.lastchild{
+	margin: 0;
+	padding:0 5px 0 3px;
+    color: #FFF;
+    font: 12px/28px "SimSun",Arial,sans-serif;
+    text-decoration: none;
+	border-left:1px #aaa solid;
+	border-right:1px #aaa solid;
+	
+}
+.footer{
+	text-align: center;
+    line-height: 24px;
+    margin: 0px;
+    font: 12px Verdana,Arial,Helvetica,sans-serif;
+    color: #FFF;
+	position: absolute;
+	right:20px;
+	top:16px;
+}

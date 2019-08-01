@@ -1,0 +1,92 @@
+#links div {
+	padding-left: 20px;
+}
+#links ul {
+	padding-left: 3px;
+	margin-top: 5px;
+	clear: left;
+	list-style-type: none;
+}
+#links li {
+	background-image: url(../img/b_lists.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 17px;
+}
+div#placard {
+	line-height: 22px;
+	background-image: url(../img/placard_bg.gif);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-top: 15px;
+	height: 110px !important;
+	height /**/:125px;
+}
+#list_placard {
+	width: 260px;
+}
+#list_placard caption {
+	font-weight: bold;
+	text-align: left;
+}
+#list_placard td {
+	height:22px;
+}
+#confide {
+	background-color: #CCFFFF;
+	background-image: url(../img/confide_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 12px;
+}
+#confide h1 {
+	background-image: url(../img/b_02.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#list_confide {
+	width: 277px;
+}
+#list_confide th,
+#list_confide td {
+padding: 5px 0 0 7px;
+}
+#list_confide th {
+text-align:left;
+border-bottom:1px solid #099;
+}
+#bbs_info {
+	background-color: #FFFFCC;
+	background-image: url(../img/bbs_info_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 12px;
+}
+#bbs_info h1 {
+	background-image: url(../img/b_03.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#bbs_info li {
+	float: left;
+	width: 126px !important;
+	width /**/:146px;
+}
+#rank {
+	float: left;
+	width: 145px !important;
+	width /**/:165px;
+}
+#software {
+	float: right;
+	width: 128px !important;
+	width /**/:148px;
+}
+#rank h1,
+#software h1 {
+	background-image: url(../img/b_01.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}

@@ -1,0 +1,50 @@
+<div class="navbar navbar-fixed-top self-h-bg" ng-class="{true: 'self-background',false: ''}[backg.last900 === true]">
+    <div class="header">
+        <div class="nav ice_nav_bar_nav">
+            <div class="logo-li">
+                <a class="not-hover" ng-click="doClickLogo()"><img class="logo-nav" ng-src="{{ info.headerImg }}"></a>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle list-header" data-toggle="collapse" data-target="#navBar">
+                    <span class="icon-bar self-background"></span>
+                    <span class="icon-bar self-background"></span>
+                    <span class="icon-bar self-background"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-right list-header" id="navBar">
+                <ul class="nav navbar-nav">
+                    <li ng-class="{'dropdown': k.children,'self-back-list': isHeaderNav === $index}" class="dropdown"
+                        ng-repeat="k in headerNav track by $index" ng-click="doClick(k.id,$event)"
+                        ng-mousemove="hMouseOver($index)" ng-mouseout="hMouseOut($index)">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            {{k.name}}<span class="caret" ng-show="k.children"></span>
+                        </a>
+                        <ul class="dropdown-menu self-dropdown-menu" ng-class="{true:'toggle-show',false: 'toggle-hide'}[isHeaderNav === $index]" role="menu" ng-show="k.children">
+                            <li ng-repeat="v in k.children"  ng-click="doClick(v.id,$event)"><a href="#">{{v.name}}</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover,.nav>li>a:focus, .nav>li>a:hover {
+        background-color: inherit !important;
+    }
+    .toggle-show {
+        display: block;
+    }
+    .toggle-hide {
+        display: none;
+    }
+    .dropdown-menu {
+        top: calc(100% + 3px);
+        border: 0 !important;
+    }
+</style>
+<script>
+
+
+</script>

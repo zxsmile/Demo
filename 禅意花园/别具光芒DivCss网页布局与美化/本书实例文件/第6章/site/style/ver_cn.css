@@ -1,0 +1,14 @@
+* {
+font-family: "ËÎÌו", sans-serif;
+font-size: 12px;
+color: #000;
+}
+#h_text p {
+line-height: 135%;
+padding: 20px 20px 0;
+}
+#text p {
+line-height: 140%;
+text-align: left;
+padding: 0 20px 20px;
+}

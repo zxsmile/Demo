@@ -1,0 +1,187 @@
+html, body, input {
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei", "SimSun", "微软雅黑", "宋体", Candara, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #707070;
+    background: #f6f6f6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+    font-size: 1.4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+label span {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+label {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 1.4rem;
+    color: #515151;
+    cursor: pointer;
+}
+
+a:hover, a:focus {
+    /*text-decoration: none;*/
+    /*color: #707070;*/
+}
+
+li {
+    list-style: none;
+}
+
+.form-control[readonly] {
+    background: #FFFFFF;
+}
+
+/*滚动条样式*/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #c3c3c3;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.header-bottom {
+    border-bottom: 4px solid white
+}
+
+.right {
+    float: right !important;
+}
+.inline-block {
+    display: inline-block;
+}
+.right-line {
+    float: right !important;
+    display: inline-block;
+}
+
+.self-background {
+    background-color: gray !important;
+}
+
+/*flex*/
+.flex {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.flex-h-w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourProductId {
+    position: relative;
+    left: -120%;
+}
+#fourProductId3 {
+    position: relative;
+    right: -120%;
+}
+
+@keyframes myfirst
+{
+    from {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+    50%{transform:scale(1.2);
+        -webkit-transform:scale(1.3);
+        -moz-transform:scale(1.3);
+        -o-transform:scale(1.3);
+        -ms-transform:scale(1.3);}
+    to {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    from {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+    50%{transform:scale(1.2);
+        -webkit-transform:scale(1.3);
+        -moz-transform:scale(1.3);
+        -o-transform:scale(1.3);
+        -ms-transform:scale(1.3);}
+    to {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    from {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+    50%{transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -moz-transform:scale(1.3);
+        -o-transform:scale(1.3);
+        -ms-transform:scale(1.3);}
+    to {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    from {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+    50%{transform:scale(1.2);
+        -webkit-transform:scale(1.3);
+        -moz-transform:scale(1.3);
+        -o-transform:scale(1.3);
+        -ms-transform:scale(1.3);}
+    to {transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -o-transform:scale(1);
+        -ms-transform:scale(1);}
+}

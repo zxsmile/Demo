@@ -1,0 +1,224 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 594.0
+	},
+	"console":
+	{
+		"height": 58.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/roly/Demo/text.html",
+		"/E/轮播图/html/html.html",
+		"/E/vue-projects/src/assets/styles/varibles.styl",
+		"/E/vue-projects/src/pages/home/components/Icons.vue",
+		"/E/vue-projects/src/pages/home/components/Header.vue",
+		"/E/登录页面/css/iconfont.css",
+		"/E/vue-projects/src/main.js",
+		"/E/vue-projects/src/pages/home/components/Swiper.vue",
+		"/E/登录页面/html/登录页面.html",
+		"/E/登录页面/js/script.js",
+		"/E/登录页面/css/style.css",
+		"/E/myblog/themes/diaspora/source/js/diaspora.js",
+		"/E/vue-projects/src/pages/home/Home.vue",
+		"/E/轮播图/js/script.js",
+		"/E/轮播图/css/style.css",
+		"/E/vue-projects/src/assets/styles/iconfont.css",
+		"/E/登录页面/登录页面.html",
+		"/C/Users/roly/AppData/Local/Temp/Rar$DIa27164.45169/Icons.vue",
+		"/C/Users/roly/AppData/Local/Temp/Rar$DIa27164.11266/Swiper.vue",
+		"/C/Users/roly/AppData/Local/Temp/Rar$DIa27164.18834/Swiper.vue",
+		"/E/vue-projects/src/pages/home/components/swiper.vue",
+		"/E/html/dd.html",
+		"/C/Users/roly/AppData/Local/Temp/Rar$DIa26512.17522/reset.css",
+		"/E/vue-projects/index.html",
+		"/E/vue-projects/src/App.vue",
+		"/E/vue-projects/src/router/index.js",
+		"/E/vue-projects/package.json",
+		"/E/vue1/vue.js",
+		"/E/vue-projects/src/components/HelloWorld.vue",
+		"/E/vue1/vue中多个元素或组件的过渡.html",
+		"/E/vue1/vue中的js动画与velocity.js.html",
+		"/E/vue1/Vue中的列表过渡.html",
+		"/E/vue1/vue中的动画封装.html",
+		"/E/vue1/定时器.html",
+		"/E/vue1/父子组件传值.html",
+		"/E/vue1/vue中动画.html",
+		"/E/vue1/非父子组件间传值.html",
+		"/E/vue1/animate.css",
+		"/E/vue1/vue上样式绑定.html",
+		"/E/vue1/TodoList-template-chuanzhi.html",
+		"/E/vue1/index.html",
+		"/C/Users/roly/Demo/vue1/TodoList-template-jvbu.html",
+		"/E/vue1/index-template.html",
+		"/E/vue1/TodoList-template-jvbu.html",
+		"/E/vue1/TodoList-template-jvbu",
+		"/E/vue.js",
+		"/E/vue (1)",
+		"/E/vue.min.js",
+		"/E/Vue/vue-project/index.html",
+		"/E/text.html",
+		"/F/Sublime Text3/dongfeng.html",
+		"/F/Sublime Text3/js测试.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TodoList-template-chuanzhi.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

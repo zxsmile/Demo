@@ -1,0 +1,106 @@
+* {
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+a:hover {
+	color: #CC3399;
+	text-decoration: none;
+}
+body {
+	font-family: "ËÎÌו", sans-serif;
+	font-size: 12px;
+	background-color: #FFE6F1;
+	background-image: url(../img/body_bg.gif);
+	text-align: center;
+}
+#box {
+	background-color: #FFFFFF;
+	background-image: url(../img/box_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+	width: 782px;
+	padding-top: 1px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logo {
+	background-image: url(../img/logo_bg.gif);
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1px;
+	border: 2px solid #FF0066;
+	width: 766px !important;
+	width /**/:770px;  /* IE 5.x */
+}
+#nav {
+	width:770px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#nav li {
+    display:inline;
+	list-style-type: none;
+}
+#nav a {
+	font-size:14px;
+	font-weight: bold;
+	color:#666666;
+	background-image:url(../img/nav_bg_left.gif);
+	background-repeat: no-repeat;
+	padding-left:4px;
+	float: left;
+	border-bottom:1px solid #666666;
+}
+#nav a span {
+	display:block;
+	padding:13px 22px 9px 18px;
+	background-image: url(../img/nav_bg_right.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#nav .last {
+	padding:13px 24px 9px 20px;
+	border-right: 1px solid #666666;
+}
+#nav a:hover {
+	background-position: 0 -50px;
+}
+#nav a:hover span {
+	color:#CC3399;
+	background-position: 100% -50px;
+	padding-top: 14px;
+	padding-bottom:8px;
+}
+.btn {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 2px 1px 1px 1px;
+	border-color: #999999;
+	width: 50px !important;
+	width /**/: 52px;
+}
+#footer {
+	line-height:34px;
+	color:#CC0066;
+	background-image:url(../img/footer_bg.gif);
+	background-repeat:repeat-x;
+	margin:0 auto;
+	clear:both;
+	border-width:6px 1px 1px 1px;
+	border-style:solid;
+	border-color:#999999;
+	width: 768px !important;
+	height:34px !important;
+	width /**/: 770px;
+	height /**/:41px;
+}

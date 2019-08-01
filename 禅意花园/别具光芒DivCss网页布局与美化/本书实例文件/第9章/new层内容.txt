@@ -1,0 +1,182 @@
+<div id="new">
+  <h1>新品上架</h1>
+  <ol>
+    <li>
+      <dl>
+        <dt><img src="photo/new_01.jpg" alt="商品图片" /></dt>
+        <dd>紫水晶吊坠</dd>
+        <dd>原　价：￥128元</dd>
+        <dd>折扣价：￥108元</dd>
+        <dd>
+          <ul>
+            <li><a href="#" title="点击购买此商品">购买</a></li>
+            <li><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_02.jpg" alt="商品图片" /></dt>
+        <dd>紫水晶吊坠</dd>
+        <dd>原　价：￥128元</dd>
+        <dd>折扣价：￥108元</dd>
+        <dd>
+          <ul>
+            <li><a href="#" title="点击购买此商品">购买</a></li>
+            <li><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_03.jpg" alt="商品图片" /></dt>
+        <dd>紫水晶吊坠</dd>
+        <dd>原　价：￥128元</dd>
+        <dd>折扣价：￥108元</dd>
+        <dd>
+          <ul>
+            <li><a href="#" title="点击购买此商品">购买</a></li>
+            <li><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_04.jpg" alt="商品图片" /></dt>
+        <dd>紫水晶吊坠</dd>
+        <dd>原　价：￥128元</dd>
+        <dd>折扣价：￥108元</dd>
+        <dd>
+          <ul>
+            <li><a href="#" title="点击购买此商品">购买</a></li>
+            <li><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_05.jpg" alt="商品图片" /></dt>
+        <dd>紫水晶吊坠</dd>
+        <dd>原　价：￥128元</dd>
+        <dd>折扣价：￥108元</dd>
+        <dd>
+          <ul>
+            <li><a href="#" title="点击购买此商品">购买</a></li>
+            <li><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_06.jpg" alt="商品图片" /></dt>
+        <dd>紫水晶吊坠</dd>
+        <dd>原　价：￥128元</dd>
+        <dd>折扣价：￥108元</dd>
+        <dd>
+          <ul>
+            <li><a href="#" title="点击购买此商品">购买</a></li>
+            <li><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+  </ol>
+</div><!-- #new -->
+
+
+=================应用样式====================
+
+<div id="new">
+  <h1>新品上架</h1>
+  <ol>
+    <li>
+      <dl>
+        <dt><img src="photo/new_01.jpg" alt="商品图片" /></dt>
+        <dd class="title">紫水晶吊坠</dd>
+        <dd class="price">原　价：￥128元</dd>
+        <dd class="net_price">折扣价：￥108元</dd>
+        <dd class="select new_btn">
+          <ul>
+            <li class="btn buy"><a href="#" title="点击购买此商品">购买</a></li>
+            <li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_02.jpg" alt="商品图片" /></dt>
+        <dd class="title">紫水晶吊坠</dd>
+        <dd class="price">原　价：￥128元</dd>
+        <dd class="net_price">折扣价：￥108元</dd>
+        <dd class="select new_btn">
+          <ul>
+            <li class="btn buy"><a href="#" title="点击购买此商品">购买</a></li>
+            <li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_03.jpg" alt="商品图片" /></dt>
+        <dd class="title">紫水晶吊坠</dd>
+        <dd class="price">原　价：￥128元</dd>
+        <dd class="net_price">折扣价：￥108元</dd>
+        <dd class="select new_btn">
+          <ul>
+            <li class="btn buy"><a href="#" title="点击购买此商品">购买</a></li>
+            <li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_04.jpg" alt="商品图片" /></dt>
+        <dd class="title">紫水晶吊坠</dd>
+        <dd class="price">原　价：￥128元</dd>
+        <dd class="net_price">折扣价：￥108元</dd>
+        <dd class="select new_btn">
+          <ul>
+            <li class="btn buy"><a href="#" title="点击购买此商品">购买</a></li>
+            <li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_05.jpg" alt="商品图片" /></dt>
+        <dd class="title">紫水晶吊坠</dd>
+        <dd class="price">原　价：￥128元</dd>
+        <dd class="net_price">折扣价：￥108元</dd>
+        <dd class="select new_btn">
+          <ul>
+            <li class="btn buy"><a href="#" title="点击购买此商品">购买</a></li>
+            <li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><img src="photo/new_06.jpg" alt="商品图片" /></dt>
+        <dd class="title">紫水晶吊坠</dd>
+        <dd class="price">原　价：￥128元</dd>
+        <dd class="net_price">折扣价：￥108元</dd>
+        <dd class="select new_btn">
+          <ul>
+            <li class="btn buy"><a href="#" title="点击购买此商品">购买</a></li>
+            <li class="btn favorite"><a href="#" title="点击将商品加入收藏夹">收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+  </ol>
+</div><!-- #new -->

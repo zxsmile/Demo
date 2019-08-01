@@ -1,0 +1,10 @@
+
+<div class="investor_panel_shadow investor_side_panel" ng-if="active_item == 'index' || active_item == 'pCredit'">
+    <div class="investor_side_panel_body">
+        <!--<h5>个人系统</h5>-->
+        <ul>
+            <li><a ui-sref="index.pCredit.binding" class="btn-block" ng-class="{'active': active_last_item == 'index' || active_last_item == 'binding'}">数据源列表</a></li>
+            <li><a ui-sref="index.pCredit.service" class="btn-block" ng-class="{'active': active_last_item == 'service'}">数据源取数</a></li>
+        </ul>
+    </div>
+</div>

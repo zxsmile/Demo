@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="Keywords" content="猫,图片,相册" />
+<meta name="description" content="这里有很多可爱猫猫的图片。" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>美女与野兽——可爱猫猫图片秀</title>
+<!-- TemplateEndEditable -->
+<link href="../style/basic.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="main">
+  <div id="nav"><a href="../index.html" title="返回相册首页">首页</a> &gt; <!-- TemplateBeginEditable name="nav" --><a href="../catalog.html" title="返回相册目录">目录</a> &gt; 图片展示<!-- TemplateEndEditable --></div>
+  <div id="title"><!-- TemplateBeginEditable name="title" -->
+    <h1>此处显示  id "title" 的内容</h1>
+  <!-- TemplateEndEditable --></div>
+  <div id="photo"><!-- TemplateBeginEditable name="photo" -->此处显示  id "photo" 的内容<!-- TemplateEndEditable --></div>
+  <div id="nav2">| <!-- TemplateBeginEditable name="nav2_prev" -->上一页<!-- TemplateEndEditable --> | <a href="../catalog.html">目录</a> | <!-- TemplateBeginEditable name="nav2_next" -->下一页<!-- TemplateEndEditable --> |</div>
+  <div id="footer">设计制作：<a href="http://www.ddcat.net" target="_blank" title="访问[豆豆猫工坊]">豆豆猫工坊</a></div>
+</div>
+</body>
+</html>

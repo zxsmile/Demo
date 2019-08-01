@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src=./vue.js></script>
+    <title>过渡</title>
+    <style>
+      .v-enter, .v-leave-to {
+          opacity: 0;
+         
+    }
+    .v-leave-to{
+        transform: translateX(-20px);
+    }
+    .v-enter{
+         transform: translateX(20px);
+    }
+       .v-enter-active,.v-leave-active{
+           transition: all 1s 
+          
+       }
+    </style>
+</head>
+<body>
+    <div id='app'>
+        <transition mode="out-in">
+           <button v-if="show" @click="handleChangeClick" key="on">on</button>
+           <button v-else @click="handleChangeClick" key="off">off</button>
+       </transition>
+           
+        
+    </div>
+    <script>
+     
+       var vm = new Vue({
+            el:'#app',
+            data:{
+               show:true
+            },
+            methods:{
+                handleChangeClick:function(){
+                    this.show=!this.show
+                },
+              
+            }
+       })
+    </script>
+</body>
+</html>

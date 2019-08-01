@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>computed</title>
+    <script src=./vue.js></script>
+    
+</head>
+<body>
+    <div id="date">
+       <conuter @conter="handleConter" ref="one"></conuter>
+       <conuter @conter="handleConter" ref="two"></conuter>
+       <div>{{total}}</div>
+       <reduce :text="'增加'" @change="handeleAdd"></reduce>
+       <reduce :text="'减少'" @change="handeleAdd"></reduce>
+    </div>
+    <script>
+        Vue.prototype.bus = new Vue();
+        var reduce = {
+              props:['text'],
+              template:'<button @click="handleBtnClick">{{text}}</button>',
+              methods:{
+                handleBtnClick:function(){
+                 
+                   this.$emit('change');
+                }
+              },
+             
+        }
+        Vue.component('conuter',{
+            template:'<div @click="handleClick">{{number}}</div>',
+            data:function(){
+                return {
+                    number:0
+                }
+            },
+            methods:{
+                handleClick:function(){
+                    this.number++
+                    this.$emit('conter')
+                }
+            } ,
+           
+        })
+
+        var vm=new Vue({
+            el:'#date',
+            data:{
+                total:0
+            },
+            components:{
+                reduce:reduce
+            },
+            methods:{
+                handleConter:function(){
+                    this.total=this.$refs.one.number+this.$refs.two.number
+                },
+                handeleAdd:function(){
+                    this.$refs.one.number++
+                    this.$refs.two.number++
+                }
+            }
+        })
+    </script>
+</body>
+</html>

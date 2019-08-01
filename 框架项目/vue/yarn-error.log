@@ -1,0 +1,148 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\PROGRA~2\Borland\CBUILD~1\Bin;D:\PROGRA~2\Borland\CBUILD~1\Projects\Bpl;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;D:\Program Files\Java\jdk1.8.0_66\bin;D:\Program Files\Java\jdk1.8.0_66\jre;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;D:\JavaIDE\apache-maven-3.5.0\bin;D:\Program Files (x86)\Yarn\bin\;D:\Program Files\nodejs\;D:\Program Files\nodejs\node_modules;D:\Program Files\nodejs\node_global;D:\JavaIDE\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\Administrator.PC\AppData\Local\Yarn\bin;C:\Users\Administrator.PC\.dotnet\tools;D:\Program Files\Microsoft VS Code\bin;C:\Users\Administrator.PC\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.13.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "vue-cli-kingdee",
+    "version": "1.0.0",
+    "description": "vue-cli",
+    "author": "",
+    "private": true,
+    "scripts": {
+      "dev": "node build/dev-server.js",
+      "start": "node build/dev-server.js",
+      "build": "node build/build.js",
+      "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+      "e2e": "node test/e2e/runner.js",
+      "test": "npm run unit && npm run e2e"
+    },
+    "dependencies": {
+      "axios": "^0.16.1",
+      "babel-polyfill": "^6.26.0",
+      "babel-preset-es2015": "^6.24.1",
+      "echarts": "^3.5.4",
+      "iview": "^2.0.0",
+      "jquery": "^3.3.1",
+      "js-md5": "^0.4.2",
+      "qrcanvas-vue": "^1.0.2",
+      "request": "^2.81.0",
+      "vue": "^2.2.2",
+      "vue-resource": "^1.3.1",
+      "vue-router": "^2.3.0",
+      "vuex": "^2.3.1"
+    },
+    "devDependencies": {
+      "autoprefixer": "^6.7.2",
+      "babel-core": "^6.22.1",
+      "babel-loader": "^6.2.10",
+      "babel-plugin-istanbul": "^3.1.2",
+      "babel-plugin-transform-runtime": "^6.22.0",
+      "babel-preset-env": "^1.2.1",
+      "babel-preset-stage-2": "^6.22.0",
+      "babel-register": "^6.22.0",
+      "chai": "^3.5.0",
+      "chalk": "^1.1.3",
+      "chromedriver": "^2.27.2",
+      "connect-history-api-fallback": "^1.3.0",
+      "copy-webpack-plugin": "^4.0.1",
+      "cross-env": "^3.1.4",
+      "cross-spawn": "^5.0.1",
+      "css-loader": "^0.26.4",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-plugin-node": "^5.1.1",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^3.0.1",
+      "eventsource-polyfill": "^0.9.6",
+      "express": "^4.14.1",
+      "extract-text-webpack-plugin": "^2.0.0",
+      "file-loader": "^0.10.0",
+      "friendly-errors-webpack-plugin": "^1.1.3",
+      "html-webpack-plugin": "^2.28.0",
+      "http-proxy-middleware": "^0.17.3",
+      "inject-loader": "^2.0.1",
+      "karma": "^1.4.1",
+      "karma-coverage": "^1.1.1",
+      "karma-mocha": "^1.3.0",
+      "karma-phantomjs-launcher": "^1.0.2",
+      "karma-phantomjs-shim": "^1.4.0",
+      "karma-sinon-chai": "^1.2.4",
+      "karma-sourcemap-loader": "^0.3.7",
+      "karma-spec-reporter": "0.0.26",
+      "karma-webpack": "^2.0.2",
+      "less": "^2.7.2",
+      "less-loader": "^4.0.4",
+      "lolex": "^1.5.2",
+      "mocha": "^3.2.0",
+      "nightwatch": "^0.9.12",
+      "opn": "^4.0.2",
+      "optimize-css-assets-webpack-plugin": "^1.3.0",
+      "ora": "^1.1.0",
+      "phantomjs-prebuilt": "^2.1.14",
+      "rimraf": "^2.6.0",
+      "selenium-server": "^3.0.1",
+      "semver": "^5.3.0",
+      "shelljs": "^0.7.6",
+      "sinon": "^2.1.0",
+      "sinon-chai": "^2.8.0",
+      "style-loader": "^0.18.2",
+      "url-loader": "^0.5.8",
+      "vue-loader": "^11.1.4",
+      "vue-style-loader": "^2.0.0",
+      "vue-template-compiler": "^2.2.4",
+      "webpack": "^2.2.1",
+      "webpack-bundle-analyzer": "^2.2.1",
+      "webpack-dev-middleware": "^1.10.0",
+      "webpack-hot-middleware": "^2.16.1",
+      "webpack-merge": "^2.6.1"
+    },
+    "engines": {
+      "node": ">= 4.0.0",
+      "npm": ">= 3.0.0"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: D:\迅雷下载\yuHong-master\vue\node_modules\chromedriver: Command failed.
+  Exit code: 3221225786
+  Command: C:\Windows\system32\cmd.exe
+  Arguments: /d /s /c node install.js
+  Directory: D:\迅雷下载\yuHong-master\vue\node_modules\chromedriver
+  Output:
+  Current existing ChromeDriver binary is unavailable, proceding with download and extraction.
+  Downloading from file:  https://chromedriver.storage.googleapis.com/2.45/chromedriver_win32.zip
+  Saving to file: C:\Users\ADMINI~1.PC\AppData\Local\Temp\chromedriver\chromedriver_win32.zip
+  Received 781K...
+  Received 1568K...
+  Received 2352K...
+  Received 3136K...
+  ^C
+      at ProcessTermError.MessageError (D:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (D:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (D:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:182:13)
+      at maybeClose (internal/child_process.js:962:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)

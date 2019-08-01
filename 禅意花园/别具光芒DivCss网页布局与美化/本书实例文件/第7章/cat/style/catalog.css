@@ -1,0 +1,23 @@
+#title {
+background: #FFF url(../img/c_title_bg.jpg) no-repeat;
+text-align: left;
+height:77px;
+}
+#title p {
+line-height: 140%;
+padding: 17px 0 0 205px;
+}
+#photo {
+background: url(../img/c_photo_bg.gif) repeat-x;
+white-space: nowrap;
+padding: 40px 10px;
+overflow: auto;
+width: 748px !important;
+width /**/: 768px;
+}
+* html #photo {
+height: 150px;
+}
+#nav2 {
+display: none;
+}

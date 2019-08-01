@@ -1,0 +1,30 @@
+#title {
+	background-color: #FFFFFF;
+	background-image: url(../img/c_title_bg.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	height:77px;
+}
+#title p {
+	line-height: 140%;
+	padding-top: 17px;
+	padding-left: 205px;
+}
+#photo {
+	background-image: url(../img/c_photo_bg.gif);
+	background-repeat: repeat-x;
+	white-space: nowrap;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	overflow: auto;
+	width: 748px !important;
+	width /**/: 768px;
+}
+* html #photo {
+	height: 150px;
+}
+#nav2 {
+	display: none;
+}

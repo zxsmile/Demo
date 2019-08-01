@@ -1,0 +1,78 @@
+#link {
+	float: left;
+	width: 160px;
+	margin-left: 10px;
+	clear: left;
+	display: inline;
+}
+#login {
+	background-image: url(../img/login_bg.jpg);
+	background-repeat: no-repeat;
+	padding-top:49px;
+}
+#f_login legend {
+	display:none;
+}
+#f_login {
+	font-size:12px;
+	background-color: #EEEEEE;
+	padding-bottom: 10px;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+#f_login_name,
+#f_login_pass {
+	background-color: #EEEEEE;
+	width: 90px;
+	border-bottom: 1px solid #666666;
+	margin:5px 0;
+}
+#login li {
+	width:50%;
+	display:inline;
+	list-style:none;
+	line-height:200%;
+}
+#sort {
+	background-color:#EEEEEE;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	text-align:left;
+	white: 158px !important;
+	white /**/: 160px;
+}
+#sort h1 {
+	background-repeat:no-repeat;
+	background-position:top center;
+	text-indent:-9999px;
+	height:29px;
+}
+#sort_h_1 {
+	background-image:url(../img/sort_h_1.gif);
+}
+#sort_h_2 {
+	background-image:url(../img/sort_h_2.gif);
+}
+#sort ul {
+	padding-left: 25px;
+	padding-bottom: 6px;
+	border-top: 1px solid #CCCCCC;
+	list-style:none;
+}
+#sort li {
+	width:97px;
+	padding:6px 0 3px 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+#ad_2 {
+	background-color: #EEEEEE;
+	border-width:0 1px 1px 1px;
+	border-style:solid;
+	border-color:#CCCCCC;
+	width: 158px !important;
+	width /**/: 160px;
+}
+#ad_2 li {
+	list-style: none;
+	padding-bottom: 2px;
+}

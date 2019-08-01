@@ -1,0 +1,374 @@
+{
+  "content": [
+    {
+      "tableInfoList": [
+        {
+          "fieldList": "[{\"fieldComment\":\"序号\",\"fieldName\":\"serno\",\"fieldType\":\"bigint\"},{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"客户名称\",\"fieldName\":\"kh_name\",\"fieldType\":\"string\"},{\"fieldComment\":\"开户机构\",\"fieldName\":\"khjg\",\"fieldType\":\"string\"},{\"fieldComment\":\"合同编号\",\"fieldName\":\"hth\",\"fieldType\":\"string\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "序号",
+              "fieldName": "serno",
+              "fieldType": "bigint"
+            },
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "客户名称",
+              "fieldName": "kh_name",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "开户机构",
+              "fieldName": "khjg",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "合同编号",
+              "fieldName": "hth",
+              "fieldType": "string"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "annual_inspection"
+        },
+        {
+          "fieldList": "[{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"报告号\",\"fieldName\":\"report_no\",\"fieldType\":\"string\"},{\"fieldComment\":\"客户所有对外担保笔数\",\"fieldName\":\"total_guarantee_num\",\"fieldType\":\"double\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "报告号",
+              "fieldName": "report_no",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "客户所有对外担保笔数",
+              "fieldName": "total_guarantee_num",
+              "fieldType": "double"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "bj_guarantee"
+        }
+      ],
+      "keyTable": "bj_guarantee",
+      "keyName": "khm",
+      "id": 17,
+      "dataSourceName": "data_source_test_with_join",
+      "remarks": "备注"
+    },
+    {
+      "tableInfoList": [
+        {
+          "fieldList": "[{\"fieldComment\":\"序号\",\"fieldName\":\"serno\",\"fieldType\":\"bigint\"},{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"客户名称\",\"fieldName\":\"kh_name\",\"fieldType\":\"string\"},{\"fieldComment\":\"开户机构\",\"fieldName\":\"khjg\",\"fieldType\":\"string\"},{\"fieldComment\":\"合同编号\",\"fieldName\":\"hth\",\"fieldType\":\"string\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "序号",
+              "fieldName": "serno",
+              "fieldType": "bigint"
+            },
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "客户名称",
+              "fieldName": "kh_name",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "开户机构",
+              "fieldName": "khjg",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "合同编号",
+              "fieldName": "hth",
+              "fieldType": "string"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "annual_inspection"
+        }
+      ],
+      "keyTable": "annual_inspection",
+      "keyName": "khm",
+      "id": 18,
+      "dataSourceName": "data_source_test_without_join",
+      "remarks": "备注"
+    },
+    {
+      "tableInfoList": [
+        {
+          "fieldList": "[{\"fieldComment\":\"序号\",\"fieldName\":\"serno\",\"fieldType\":\"bigint\"},{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"客户名称\",\"fieldName\":\"kh_name\",\"fieldType\":\"string\"},{\"fieldComment\":\"开户机构\",\"fieldName\":\"khjg\",\"fieldType\":\"string\"},{\"fieldComment\":\"合同编号\",\"fieldName\":\"hth\",\"fieldType\":\"string\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "序号",
+              "fieldName": "serno",
+              "fieldType": "bigint"
+            },
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "客户名称",
+              "fieldName": "kh_name",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "开户机构",
+              "fieldName": "khjg",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "合同编号",
+              "fieldName": "hth",
+              "fieldType": "string"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "annual_inspection"
+        },
+        {
+          "fieldList": "[{\"fieldComment\":\"报告号\",\"fieldName\":\"report_no\",\"fieldType\":\"string\"},{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"客户所有对外担保笔数\",\"fieldName\":\"total_guarantee_num\",\"fieldNameAlias\":\"test_alias\",\"fieldType\":\"double\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "报告号",
+              "fieldName": "report_no",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "客户所有对外担保笔数",
+              "fieldName": "total_guarantee_num",
+              "fieldNameAlias": "test_alias",
+              "fieldType": "double"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "bj_guarantee"
+        }
+      ],
+      "keyTable": "bj_guarantee",
+      "keyName": "khm",
+      "id": 21,
+      "dataSourceName": "data_source_test_alias1",
+      "remarks": "备注"
+    },
+    {
+      "tableInfoList": [
+        {
+          "fieldList": "[{\"fieldComment\":\"序号\",\"fieldName\":\"serno\",\"fieldType\":\"bigint\"},{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"客户名称\",\"fieldName\":\"kh_name\",\"fieldType\":\"string\"},{\"fieldComment\":\"开户机构\",\"fieldName\":\"khjg\",\"fieldType\":\"string\"},{\"fieldComment\":\"合同编号\",\"fieldName\":\"hth\",\"fieldType\":\"string\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "序号",
+              "fieldName": "serno",
+              "fieldType": "bigint"
+            },
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "客户名称",
+              "fieldName": "kh_name",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "开户机构",
+              "fieldName": "khjg",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "合同编号",
+              "fieldName": "hth",
+              "fieldType": "string"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "annual_inspection"
+        },
+        {
+          "fieldList": "[{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"报告号\",\"fieldName\":\"report_no\",\"fieldType\":\"string\"},{\"fieldComment\":\"客户所有对外担保笔数\",\"fieldName\":\"total_guarantee_num\",\"fieldType\":\"double\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "报告号",
+              "fieldName": "report_no",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "客户所有对外担保笔数",
+              "fieldName": "total_guarantee_num",
+              "fieldType": "double"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "bj_guarantee"
+        }
+      ],
+      "keyTable": "bj_guarantee",
+      "keyName": "khm",
+      "id": 23,
+      "dataSourceName": "data_source_test_with_join_test",
+      "remarks": "备注"
+    },
+    {
+      "tableInfoList": [
+        {
+          "fieldList": "[{\"fieldComment\":\"序号\",\"fieldName\":\"serno\",\"fieldType\":\"bigint\"},{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"客户名称\",\"fieldName\":\"kh_name\",\"fieldType\":\"string\"},{\"fieldComment\":\"开户机构\",\"fieldName\":\"khjg\",\"fieldType\":\"string\"},{\"fieldComment\":\"合同编号\",\"fieldName\":\"hth\",\"fieldType\":\"string\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "序号",
+              "fieldName": "serno",
+              "fieldType": "bigint"
+            },
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "客户名称",
+              "fieldName": "kh_name",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "开户机构",
+              "fieldName": "khjg",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "合同编号",
+              "fieldName": "hth",
+              "fieldType": "string"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "annual_inspection"
+        },
+        {
+          "fieldList": "[{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"报告号\",\"fieldName\":\"report_no\",\"fieldType\":\"string\"},{\"fieldComment\":\"客户所有对外担保笔数\",\"fieldName\":\"total_guarantee_num\",\"fieldType\":\"double\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "报告号",
+              "fieldName": "report_no",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "客户所有对外担保笔数",
+              "fieldName": "total_guarantee_num",
+              "fieldType": "double"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "bj_guarantee"
+        }
+      ],
+      "keyTable": "bj_guarantee",
+      "keyName": "khm",
+      "id": 39,
+      "dataSourceName": "data_source_test_alias1_test12",
+      "remarks": "备注"
+    },
+    {
+      "tableInfoList": [
+        {
+          "fieldList": "[{\"fieldComment\":\"序号\",\"fieldName\":\"serno\",\"fieldType\":\"bigint\"},{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"客户名称\",\"fieldName\":\"kh_name\",\"fieldType\":\"string\"},{\"fieldComment\":\"开户机构\",\"fieldName\":\"khjg\",\"fieldType\":\"string\"},{\"fieldComment\":\"合同编号\",\"fieldName\":\"hth\",\"fieldType\":\"string\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "序号",
+              "fieldName": "serno",
+              "fieldType": "bigint"
+            },
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "客户名称",
+              "fieldName": "kh_name",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "开户机构",
+              "fieldName": "khjg",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "合同编号",
+              "fieldName": "hth",
+              "fieldType": "string"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "annual_inspection"
+        },
+        {
+          "fieldList": "[{\"fieldComment\":\"客户号\",\"fieldName\":\"khm\",\"fieldType\":\"string\",\"keyInfo\":\"PRI\"},{\"fieldComment\":\"报告号\",\"fieldName\":\"report_no\",\"fieldType\":\"string\"},{\"fieldComment\":\"客户所有对外担保笔数\",\"fieldName\":\"total_guarantee_num\",\"fieldType\":\"double\"}]",
+          "fieldListAsList": [
+            {
+              "fieldComment": "客户号",
+              "fieldName": "khm",
+              "fieldType": "string",
+              "keyInfo": "PRI"
+            },
+            {
+              "fieldComment": "报告号",
+              "fieldName": "report_no",
+              "fieldType": "string"
+            },
+            {
+              "fieldComment": "客户所有对外担保笔数",
+              "fieldName": "total_guarantee_num",
+              "fieldType": "double"
+            }
+          ],
+          "haveKey": false,
+          "tableName": "bj_guarantee"
+        }
+      ],
+      "keyTable": "bj_guarantee",
+      "keyName": "khm",
+      "id": 40,
+      "dataSourceName": "data_source_test_alias1_api_test",
+      "remarks": "备注"
+    }
+  ],
+  "responseCode": "00",
+  "responseMsg": "操作成功"
+}

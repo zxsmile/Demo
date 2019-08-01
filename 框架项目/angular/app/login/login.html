@@ -1,0 +1,59 @@
+<div id="login">
+    <div class="clearfix test">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="panel ice_login_panel">
+                <div class="panel-heading ice_login_panel_heading">
+                    登录
+                </div>
+                <div class="panel-body">
+                    <div class="form-group" ng-if="loginError">
+                        <p class="ice_login_error"><span class="fa fa-remove fa-fw"></span>{{ loginError }}</p>
+                    </div>
+                    <div class="form-group" ng-if="sessionLose">
+                        <p class="ice_login_error"><span class="fa fa-remove fa-fw"></span>{{ sessionLose }}</p>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon" style="background: #ffffff;"><i
+                                    class="fa fa-user fa-fw"></i></span>
+                            <input class="form-control" type="text" ng-model="loginParams.username" placeholder="请输入用户名"
+                                   ng-keyup="pressEnter()" ng-readonly="inLogining">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon" style="background: #ffffff;"><i
+                                    class="fa fa-lock fa-fw"></i></span>
+                            <input class="form-control" type="password" ng-model="loginParams.password"
+                                   placeholder="请输入密码" ng-keyup="pressEnter()" ng-readonly="inLogining">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row clearfix">
+                            <div class="col-xs-6">
+                                <input class="form-control" type="text" ng-model="loginParams.captcha"
+                                       placeholder="请输入验证码" ng-keyup="pressEnter()" ng-readonly="inLogining">
+                            </div>
+                            <div class="col-xs-6">
+                                <img ng-src="{{ captchaUrl }}" id="captcha" ng-click="refreshCaptcha()"
+                                     style="height: 32px;padding-left: 1em;cursor: pointer;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-block ice_login_submit" ng-click="userLogin()"
+                                ng-disabled="inLogining">
+                            <span class="fa fa-spinner fa-spin" ng-if="inLogining"></span>
+                            <span ng-if="!inLogining">登录</span>
+                        </button>
+                        <!--<a class="ice_login_forget">忘记密码 ?</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="ice_login_footer">
+                <hr>
+                <p>Copyright ©2018</p>
+            </div>
+        </div>
+    </div>
+</div>

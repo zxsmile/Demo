@@ -1,0 +1,41 @@
+{
+  "content": [
+    {
+      "fieldName": "khm",
+      "fieldComment": "客户号",
+      "fieldType": "string"
+    },
+    {
+      "fieldName": "report_no",
+      "fieldComment": "报告号",
+      "fieldType": "string"
+    },
+    {
+      "fieldName": "total_guarantee_num",
+      "fieldComment": "客户所有对外担保笔数",
+      "fieldType": "double"
+    },
+    {
+      "fieldName": "total_guarantee_amt",
+      "fieldComment": "客户所有贷款金额",
+      "fieldType": "double"
+    },
+    {
+      "fieldName": "total_guarantee_balance",
+      "fieldComment": "客户所有贷款余额",
+      "fieldType": "double"
+    },
+    {
+      "fieldName": "etl_dt",
+      "fieldComment": "数据时间",
+      "fieldType": "string"
+    },
+    {
+      "fieldName": "dt",
+      "fieldComment": "日期分区",
+      "fieldType": "string"
+    }
+  ],
+  "responseCode": "00",
+  "responseMsg": "操作成功"
+}

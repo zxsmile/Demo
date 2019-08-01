@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+<title>表单</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="mailto:ddcat@163.com" enctype="text/plain">
+  <fieldset>
+    <legend>给豆豆猫发便条</legend>
+    <p>
+      <label>昵称：<input type="text" name="textfield" /></label>
+      <label><input type="radio" name="sex" value="boy" />帅哥</label>
+      <label><input type="radio" name="sex" value="girl" />美女</label>
+      <label><input name="sex" type="radio" value="none" checked />
+      保密</label>
+    </p>
+    <p>
+      <label>来自：
+        <select name="select">
+          <option value="1" selected="selected">地球</option>
+          <option value="2">火星</option>
+          <option value="3">外太空</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <label>留言：<textarea name="textarea" cols="40" rows="4"></textarea></label>
+    </p>
+    <p>
+      <input type="submit" name="Submit" value="发送" />
+      <input type="reset" name="Submit" value="重写" />
+    </p>
+  </fieldset>
+</form>
+</body>
+</html>

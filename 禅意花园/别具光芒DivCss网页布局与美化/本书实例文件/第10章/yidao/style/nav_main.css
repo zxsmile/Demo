@@ -1,0 +1,62 @@
+#nav_main {
+background:url(../img/nav_main_bg.gif) no-repeat;
+width:642px;
+height:55px;
+position:absolute;
+top:127px;
+left:0;
+}
+#nav {
+margin:10px 0 0 18px;
+height:18px;
+text-align:center;
+}
+#nav li {
+float: left;
+list-style-type: none;
+}
+#nav a {
+color:#036;
+text-decoration:none;
+display: block;
+width: 74px;
+line-height:18px;
+border-right:1px solid #CFF;
+border-bottom:1px solid #CFF;
+}
+#nav a:hover {
+font-weight:bold;
+}
+#nav a:hover{
+border-bottom:3px solid #F60;
+}
+#nav ol {
+width:600px;
+position: absolute;
+left: -9999px;
+}
+#nav ol li{
+padding-top:4px;
+}
+#nav ol a{
+color:#000;
+line-height: 1.2em;
+height:1.2em;
+width: 50px;
+border-color:#000;
+border-bottom:0;
+}
+#nav ol a:hover {
+text-decoration:underline;
+font-weight:bold;
+border-bottom:0;
+}
+#nav li:hover ol {
+left: auto;
+}
+#nav li.sfhover ol {
+left: auto;
+}
+#nav li.last a {
+border-right:0;
+}

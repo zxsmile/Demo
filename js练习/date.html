@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let today = new Date(),
+        year = today.getFullYear(),
+        month = today.getMonth();
+
+    // ❌
+
+    let dayStr = '';
+    // 3月有31天
+    let dayInMonth = 31;
+
+    // 每个月的第一天
+    let firstDay = new Date(year,month,1);
+    // 每个月的最后一天
+    let lastDay = new Date(year,month,31);
+
+    //第一天星期几(0-6)
+    let weekday = firstDay.getDay();
+    // 当月的最后一天星期几
+    let lastDayWeekDay = lastDay.getDay(); 
+
+    // 每一个都是从1号开始
+    let date = 1;
+
+    // ❌
+
+    // 补齐前面的空格
+    for(let i = 0; i < weekday; i++){
+        dayStr += '+ ';
+    }
+
+    for(;date <= dayInMonth;date++){
+
+        dayStr += date + ' ';
+        weekday++
+
+        // 换行处理
+        if(weekday%7 == 0){
+            weekday = 0;
+            dayStr += '\n';
+        }
+
+    }
+
+    // 补齐后面的空格
+    for(let j = 0; j < (7 - lastDayWeekDay - 1); j++){
+        dayStr += '+  ';
+    }
+    </script>
+</body>
+</html>

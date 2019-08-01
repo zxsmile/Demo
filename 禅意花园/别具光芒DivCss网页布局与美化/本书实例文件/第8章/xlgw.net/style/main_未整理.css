@@ -1,0 +1,55 @@
+#main div {
+	padding-left: 10px;
+}
+#login {
+	line-height: 28px;
+	background-color: #CCFFFF;
+	background-image: url(../img/login_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	height: 36px;
+}
+#live {
+	text-align: center;
+}
+#live h1 {
+	float: none;
+}
+#live p {
+	line-height: 200%;
+}
+#lough {
+	background-color: #FFCCCC;
+	background-image: url(../img/lough_bg.gif);
+	background-repeat: no-repeat;
+}
+#lough h1 {
+	background-image: url(../img/b_01.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 12px;
+}
+#main table {
+	width: 437px;
+}
+#main td,
+#main th{
+	padding: 5px 0 4px 16px;
+}
+#main th {
+	background-color: #FFFFFF;
+	text-align: left;
+}
+#friends {
+	background-color: #CCFFFF;
+	background-image: url(../img/friends_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin-top: 4px;
+}
+#friends h1 {
+	background-image: url(../img/b_02.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 12px;
+}

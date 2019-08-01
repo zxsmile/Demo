@@ -1,0 +1,33 @@
+<div class="clearfix">
+    <div ui-view="header">
+        <span class="fa fa-spinner fa-spin fa-2x" style="text-align: center;"></span>
+    </div>
+    <div ui-view="main" class="ice_main">
+        <span class="fa fa-spinner fa-spin fa-2x"></span>
+    </div>
+    <div class="fix-position">
+        <div class="connect">
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=785082771&amp;site=qq&amp;menu=yes"
+               target="_blank" class="qq-kefu">
+                <i><img src="../../img/QQ-small.png" alt=""></i>
+                <span>联系客服</span>
+            </a>
+            <div class="round"></div>
+        </div>
+    </div>
+    <div class="fix-position-phone" id="fixedPhone">
+        <div class="phone-inner">
+            <span style="font-size: 20px;">联系电话：</span>
+            <span style="font-size: 30px;color: #000000;"><span class="fa fa-phone fa-x"></span>17791215041</span>
+            <div class="inner-close" id="closeFixed"><a><span class="fa fa-close fa-x"></span></a></div>
+        </div>
+    </div>
+</div>
+<script>
+    $('#closeFixed').click(function () {
+        $('#fixedPhone').css({'display': 'none'})
+        setTimeout(function () {
+            $('#fixedPhone').css({'display': 'block'})
+        }, 10000)
+    })
+</script>

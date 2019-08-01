@@ -1,0 +1,43 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body {
+font: 12px "ËÎÌו", sans-serif;
+background: #B51C8C url(../img/h_body_bg.gif) no-repeat center top;
+text-align: center;
+padding-top: 31px;
+}
+#title {
+background: url(../img/h_title_bg.jpg) no-repeat right top;
+height: 228px;
+width: 627px;
+margin: 0 auto;
+}
+#title img {
+margin: 200px 0 0 347px;
+}
+#title2 {
+background: url(../img/h_title2_bg.jpg) no-repeat;
+height: 210px;
+width: 627px;
+padding-top: 13px;
+margin: 0 auto;
+}
+.designer {
+color: #CCC;
+float: left;
+}
+.subhead {
+color: #FFF;
+text-align: right;
+}
+.designer a {
+color: #CCC;
+text-decoration: none;
+}
+.desugber a:hover {
+color: #FFF;
+text-decoration: underline;
+}

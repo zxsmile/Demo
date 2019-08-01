@@ -1,0 +1,881 @@
+{
+  "response_code": "00",
+  "message": "success",
+  "content": [
+    {
+      "uid": 1,
+      "password": "",
+      "flag": 2,
+      "accountName": "测试组",
+      "userName": "itdept"
+    },
+    {
+      "uid": 2,
+      "password": "",
+      "flag": 2,
+      "accountName": "上海冰鉴信息科技有限公司",
+      "userName": "bingjian"
+    },
+    {
+      "uid": 3,
+      "password": "",
+      "flag": 2,
+      "accountName": "上海冰鉴信息科技有限公司",
+      "userName": "icekredit"
+    },
+    {
+      "uid": 4,
+      "password": "",
+      "flag": 2,
+      "accountName": "模型组测试账号",
+      "userName": "model"
+    },
+    {
+      "uid": 5,
+      "password": "",
+      "flag": 2,
+      "accountName": "互推网",
+      "userName": "hutui"
+    },
+    {
+      "uid": 6,
+      "password": "",
+      "flag": 2,
+      "accountName": "什马金融",
+      "userName": "shenma"
+    },
+    {
+      "uid": 7,
+      "password": "",
+      "flag": 3,
+      "accountName": "唐志梁测试账号",
+      "userName": "tang_zhiliang@icekredit.com"
+    },
+    {
+      "uid": 8,
+      "password": "",
+      "flag": 2,
+      "accountName": "徐华测试账号",
+      "userName": "xuhua"
+    },
+    {
+      "uid": 9,
+      "password": "",
+      "flag": 2,
+      "accountName": "龚高洪测试账号",
+      "userName": "gong_gaohong@icekredit.com"
+    },
+    {
+      "uid": 10,
+      "password": "",
+      "flag": 2,
+      "accountName": "冰鉴市场部",
+      "userName": "market"
+    },
+    {
+      "uid": 11,
+      "password": "",
+      "flag": 2,
+      "accountName": "冰鉴BI部",
+      "userName": "ickbi"
+    },
+    {
+      "uid": 12,
+      "password": "",
+      "flag": 2,
+      "accountName": "捷越联合",
+      "userName": "jieyue"
+    },
+    {
+      "uid": 13,
+      "password": "",
+      "flag": 2,
+      "accountName": "北京睿财小额贷款有限公司",
+      "userName": "ruicai"
+    },
+    {
+      "uid": 14,
+      "password": "",
+      "flag": 2,
+      "accountName": "汇弘小贷",
+      "userName": "huihong"
+    },
+    {
+      "uid": 15,
+      "password": "",
+      "flag": 2,
+      "accountName": "龚高洪VIP测试账号",
+      "userName": "gong_gaohong"
+    },
+    {
+      "uid": 16,
+      "password": "",
+      "flag": 2,
+      "accountName": "顾凌云",
+      "userName": "gulingyun"
+    },
+    {
+      "uid": 17,
+      "password": "",
+      "flag": 2,
+      "accountName": "冰鉴测试账号1",
+      "userName": "ick1"
+    },
+    {
+      "uid": 18,
+      "password": "",
+      "flag": 2,
+      "accountName": "冰鉴测试账号2",
+      "userName": "ick2"
+    },
+    {
+      "uid": 19,
+      "password": "",
+      "flag": 2,
+      "accountName": "捷越演示账号",
+      "userName": "jy_test"
+    },
+    {
+      "uid": 20,
+      "password": "",
+      "flag": 2,
+      "accountName": "万凯测试账号",
+      "userName": "wankai"
+    },
+    {
+      "uid": 21,
+      "password": "",
+      "flag": 2,
+      "accountName": "周荷玥测试账号",
+      "userName": "zhy"
+    },
+    {
+      "uid": 22,
+      "password": "",
+      "flag": 2,
+      "accountName": "惠信小贷",
+      "userName": "huixin"
+    },
+    {
+      "uid": 24,
+      "password": "",
+      "flag": 2,
+      "accountName": "复星",
+      "userName": "fuxing"
+    },
+    {
+      "uid": 25,
+      "password": "",
+      "flag": 2,
+      "accountName": "傅翀",
+      "userName": "fuchong"
+    },
+    {
+      "uid": 26,
+      "password": "",
+      "flag": 2,
+      "accountName": "段湾",
+      "userName": "duanwan"
+    },
+    {
+      "uid": 27,
+      "password": "",
+      "flag": 2,
+      "accountName": "栾万龙",
+      "userName": "luanwanlong"
+    },
+    {
+      "uid": 28,
+      "password": "",
+      "flag": 2,
+      "accountName": "郭志攀",
+      "userName": "guozhipan"
+    },
+    {
+      "uid": 29,
+      "password": "",
+      "flag": 2,
+      "accountName": "洪涛",
+      "userName": "hongtao"
+    },
+    {
+      "uid": 30,
+      "password": "",
+      "flag": 2,
+      "accountName": "郑颖",
+      "userName": "zhengying"
+    },
+    {
+      "uid": 31,
+      "password": "",
+      "flag": 2,
+      "accountName": "管琯",
+      "userName": "guanguan"
+    },
+    {
+      "uid": 32,
+      "password": "",
+      "flag": 2,
+      "accountName": "朱清",
+      "userName": "zhuqing"
+    },
+    {
+      "uid": 33,
+      "password": "",
+      "flag": 2,
+      "accountName": "李艺恒测试账号",
+      "userName": "lyh"
+    },
+    {
+      "uid": 34,
+      "password": "",
+      "flag": 2,
+      "accountName": "杨浩测试账号",
+      "userName": "yanghao"
+    },
+    {
+      "uid": 35,
+      "password": "",
+      "flag": 2,
+      "accountName": "华瑞银行",
+      "userName": "huarui"
+    },
+    {
+      "uid": 36,
+      "password": "",
+      "flag": 2,
+      "accountName": "王兰",
+      "userName": "wang_lan"
+    },
+    {
+      "uid": 37,
+      "password": "",
+      "flag": 2,
+      "accountName": "宁文潮",
+      "userName": "ning_wenchao"
+    },
+    {
+      "uid": 38,
+      "password": "",
+      "flag": 2,
+      "accountName": "徐华的超级账号",
+      "userName": "xuhuavip"
+    },
+    {
+      "uid": 39,
+      "password": "",
+      "flag": 2,
+      "accountName": "成都锦鸿",
+      "userName": "jinhong"
+    },
+    {
+      "uid": 40,
+      "password": "",
+      "flag": 2,
+      "accountName": "刘珺测试账号",
+      "userName": "liujun"
+    },
+    {
+      "uid": 41,
+      "password": "",
+      "flag": 2,
+      "accountName": "刘荔园",
+      "userName": "liuliyuan"
+    },
+    {
+      "uid": 42,
+      "password": "",
+      "flag": 2,
+      "accountName": "王志丹",
+      "userName": "wangzhidan"
+    },
+    {
+      "uid": 43,
+      "password": "",
+      "flag": 2,
+      "accountName": "陈鑫",
+      "userName": "chenxin"
+    },
+    {
+      "uid": 44,
+      "password": "",
+      "flag": 2,
+      "accountName": "分贝测试帐号",
+      "userName": "fenbei"
+    },
+    {
+      "uid": 45,
+      "password": "",
+      "flag": 2,
+      "accountName": "成都三个智",
+      "userName": "sangezhi"
+    },
+    {
+      "uid": 46,
+      "password": "",
+      "flag": 2,
+      "accountName": "金融圈",
+      "userName": "jinrongquan"
+    },
+    {
+      "uid": 48,
+      "password": "",
+      "flag": 2,
+      "accountName": "闪银账户",
+      "userName": "wecash"
+    },
+    {
+      "uid": 49,
+      "password": "",
+      "flag": 2,
+      "accountName": "姜智聪测试账户",
+      "userName": "jzc"
+    },
+    {
+      "uid": 50,
+      "password": "",
+      "flag": 2,
+      "accountName": "小米测试账户",
+      "userName": "mi"
+    },
+    {
+      "uid": 51,
+      "password": "",
+      "flag": 2,
+      "accountName": "成都总商会测试",
+      "userName": "cdzsh"
+    },
+    {
+      "uid": 52,
+      "password": "",
+      "flag": 2,
+      "accountName": "快拼车测试",
+      "userName": "kuaipinche"
+    },
+    {
+      "uid": 53,
+      "password": "",
+      "flag": 2,
+      "accountName": "Providence",
+      "userName": "providence"
+    },
+    {
+      "uid": 54,
+      "password": "",
+      "flag": 2,
+      "accountName": "什马测试",
+      "userName": "shenma-test"
+    },
+    {
+      "uid": 55,
+      "password": "",
+      "flag": 2,
+      "accountName": "周伊然",
+      "userName": "zhouyiran"
+    },
+    {
+      "uid": 56,
+      "password": "",
+      "flag": 2,
+      "accountName": "百咖金创",
+      "userName": "baikajinchuang"
+    },
+    {
+      "uid": 57,
+      "password": "",
+      "flag": 2,
+      "accountName": "量化金服",
+      "userName": "shantong"
+    },
+    {
+      "uid": 58,
+      "password": "",
+      "flag": 2,
+      "accountName": "谢旻旗",
+      "userName": "minqi"
+    },
+    {
+      "uid": 59,
+      "password": "",
+      "flag": 2,
+      "accountName": "tpg",
+      "userName": "tpg"
+    },
+    {
+      "uid": 60,
+      "password": "",
+      "flag": 2,
+      "accountName": "上海陆管委",
+      "userName": "shlgw"
+    },
+    {
+      "uid": 61,
+      "password": "",
+      "flag": 2,
+      "accountName": "杜祥启",
+      "userName": "duxiangqi"
+    },
+    {
+      "uid": 62,
+      "password": "",
+      "flag": 2,
+      "accountName": "厚本金融",
+      "userName": "houben"
+    },
+    {
+      "uid": 63,
+      "password": "",
+      "flag": 2,
+      "accountName": "朱灿",
+      "userName": "zhucan"
+    },
+    {
+      "uid": 64,
+      "password": "",
+      "flag": 2,
+      "accountName": "谭峰",
+      "userName": "tanfeng"
+    },
+    {
+      "uid": 65,
+      "password": "",
+      "flag": 2,
+      "accountName": "陈志明",
+      "userName": "chenzhiming"
+    },
+    {
+      "uid": 66,
+      "password": "",
+      "flag": 2,
+      "accountName": "黄川东",
+      "userName": "huangchuandong"
+    },
+    {
+      "uid": 67,
+      "password": "",
+      "flag": 2,
+      "accountName": "通莞",
+      "userName": "tongguan"
+    },
+    {
+      "uid": 68,
+      "password": "",
+      "flag": 2,
+      "accountName": "李洋",
+      "userName": "liyang"
+    },
+    {
+      "uid": 69,
+      "password": "",
+      "flag": 2,
+      "accountName": "通讯测试",
+      "userName": "communication"
+    },
+    {
+      "uid": 70,
+      "password": "",
+      "flag": 2,
+      "accountName": "李薇",
+      "userName": "liwei"
+    },
+    {
+      "uid": 71,
+      "password": "",
+      "flag": 2,
+      "accountName": "邓浩梁",
+      "userName": "denghaoliang"
+    },
+    {
+      "uid": 72,
+      "password": "",
+      "flag": 2,
+      "accountName": "西安高盛",
+      "userName": "gaosheng"
+    },
+    {
+      "uid": 73,
+      "password": "",
+      "flag": 2,
+      "accountName": "中兴软创",
+      "userName": "zhongxing"
+    },
+    {
+      "uid": 74,
+      "password": "",
+      "flag": 2,
+      "accountName": "迅雷",
+      "userName": "xunlei"
+    },
+    {
+      "uid": 75,
+      "password": "",
+      "flag": 2,
+      "accountName": "青岛钱吧",
+      "userName": "qingdaoqianba"
+    },
+    {
+      "uid": 76,
+      "password": "",
+      "flag": 2,
+      "accountName": "南京天演",
+      "userName": "nanjingtianyan"
+    },
+    {
+      "uid": 77,
+      "password": "",
+      "flag": 2,
+      "accountName": "邮乐网",
+      "userName": "youlewang"
+    },
+    {
+      "uid": 78,
+      "password": "",
+      "flag": 2,
+      "accountName": "上海一米",
+      "userName": "shanghaiyimi"
+    },
+    {
+      "uid": 79,
+      "password": "",
+      "flag": 2,
+      "accountName": "汇众小贷",
+      "userName": "huizhong"
+    },
+    {
+      "uid": 80,
+      "password": "",
+      "flag": 2,
+      "accountName": "周慈益",
+      "userName": "zhouciyi"
+    },
+    {
+      "uid": 81,
+      "password": "",
+      "flag": 2,
+      "accountName": "张佳航",
+      "userName": "zhangjiahang"
+    },
+    {
+      "uid": 82,
+      "password": "",
+      "flag": 3,
+      "accountName": "杜鑫",
+      "userName": "duxin"
+    },
+    {
+      "uid": 83,
+      "password": "",
+      "flag": 2,
+      "accountName": "李媛",
+      "userName": "liyuan"
+    },
+    {
+      "uid": 84,
+      "password": "",
+      "flag": 2,
+      "accountName": "田辰舟",
+      "userName": "tianchenzhou"
+    },
+    {
+      "uid": 85,
+      "password": "",
+      "flag": 2,
+      "accountName": "张涛",
+      "userName": "zhangtao"
+    },
+    {
+      "uid": 86,
+      "password": "",
+      "flag": 2,
+      "accountName": "郑荟萃",
+      "userName": "zhenghuicui"
+    },
+    {
+      "uid": 87,
+      "password": "",
+      "flag": 2,
+      "accountName": "张闽游",
+      "userName": "zhangminyou"
+    },
+    {
+      "uid": 88,
+      "password": "",
+      "flag": 2,
+      "accountName": "睿财h5项目测试账号",
+      "userName": "ruicai_test"
+    },
+    {
+      "uid": 89,
+      "password": "",
+      "flag": 2,
+      "accountName": "周佳萱",
+      "userName": "zhoujiaxuan"
+    },
+    {
+      "uid": 90,
+      "password": "",
+      "flag": 2,
+      "accountName": "化时代",
+      "userName": "huashidai"
+    },
+    {
+      "uid": 91,
+      "password": "",
+      "flag": 2,
+      "accountName": "熟人贷项目",
+      "userName": "shurendai"
+    },
+    {
+      "uid": 92,
+      "password": "",
+      "flag": 2,
+      "accountName": "吴珍桃",
+      "userName": "wuzhentao"
+    },
+    {
+      "uid": 93,
+      "password": "",
+      "flag": 2,
+      "accountName": "北京睿财小额贷款有限公司",
+      "userName": "ruicai_yanshi"
+    },
+    {
+      "uid": 94,
+      "password": "",
+      "flag": 2,
+      "accountName": "数据平台",
+      "userName": "data"
+    },
+    {
+      "uid": 96,
+      "password": "",
+      "flag": 2,
+      "accountName": "赵光琼",
+      "userName": "zhaoguangqiong"
+    },
+    {
+      "uid": 98,
+      "password": "",
+      "flag": 2,
+      "accountName": "乾康金服",
+      "userName": "qiankang"
+    },
+    {
+      "uid": 99,
+      "password": "",
+      "flag": 2,
+      "accountName": "王震宇",
+      "userName": "wangzhenyu"
+    },
+    {
+      "uid": 100,
+      "password": "",
+      "flag": 2,
+      "accountName": "王路克",
+      "userName": "luke"
+    },
+    {
+      "uid": 101,
+      "password": "",
+      "flag": 2,
+      "accountName": "王存伟",
+      "userName": "wangcunwei"
+    },
+    {
+      "uid": 102,
+      "password": "",
+      "flag": 2,
+      "accountName": "2345.com网站测试",
+      "userName": "essw"
+    },
+    {
+      "uid": 103,
+      "password": "",
+      "flag": 2,
+      "accountName": "李亮",
+      "userName": "liliang"
+    },
+    {
+      "uid": 104,
+      "password": "",
+      "flag": 2,
+      "accountName": "多多分期api账户",
+      "userName": "duoduofenqi"
+    },
+    {
+      "uid": 106,
+      "password": "",
+      "flag": 2,
+      "accountName": "德阳银行",
+      "userName": "deyangyinhang"
+    },
+    {
+      "uid": 107,
+      "password": "",
+      "flag": 0,
+      "accountName": "睿财小贷业主贷项目",
+      "userName": "ruicaih5"
+    },
+    {
+      "uid": 109,
+      "password": "",
+      "flag": 0,
+      "accountName": "电商测试账号",
+      "userName": "e_commerce"
+    },
+    {
+      "uid": 110,
+      "password": "",
+      "flag": 0,
+      "accountName": "王栓良",
+      "userName": "wangshuanliang"
+    },
+    {
+      "uid": 111,
+      "password": "",
+      "flag": 0,
+      "accountName": "张毅钐",
+      "userName": "zhangyishan"
+    },
+    {
+      "uid": 112,
+      "password": "",
+      "flag": 0,
+      "accountName": "倪健",
+      "userName": "nijian"
+    },
+    {
+      "uid": 113,
+      "password": "",
+      "flag": 0,
+      "accountName": "易娇",
+      "userName": "yijiao"
+    },
+    {
+      "uid": 114,
+      "password": "",
+      "flag": 0,
+      "accountName": "中银消费金融",
+      "userName": "zhongyin"
+    },
+    {
+      "uid": 115,
+      "password": "",
+      "flag": 2,
+      "accountName": "云启资本",
+      "userName": "yunqiziben"
+    },
+    {
+      "uid": 116,
+      "password": "",
+      "flag": 0,
+      "accountName": "森福小贷测试账号",
+      "userName": "senfu"
+    },
+    {
+      "uid": 117,
+      "password": "",
+      "flag": 0,
+      "accountName": "投资人监控测试帐号",
+      "userName": "investor_test"
+    },
+    {
+      "uid": 120,
+      "password": "",
+      "flag": 0,
+      "accountName": "BI数据测试账号",
+      "userName": "bi_data"
+    },
+    {
+      "uid": 121,
+      "password": "",
+      "flag": 0,
+      "accountName": "仗剑天下测试账号",
+      "userName": "zjtx"
+    },
+    {
+      "uid": 122,
+      "password": "",
+      "flag": 0,
+      "accountName": "无锡农商行",
+      "userName": "wuxinonghsanghang"
+    },
+    {
+      "uid": 123,
+      "password": "",
+      "flag": 0,
+      "accountName": "网易测试",
+      "userName": "netease"
+    },
+    {
+      "uid": 124,
+      "password": "",
+      "flag": 0,
+      "accountName": "维氏盾测试账户",
+      "userName": "weishidun"
+    },
+    {
+      "uid": 125,
+      "password": "",
+      "flag": 0,
+      "accountName": "机速购",
+      "userName": "jisugou"
+    },
+    {
+      "uid": 126,
+      "password": "",
+      "flag": 2,
+      "accountName": "全旗测试账户",
+      "userName": "quanqi"
+    },
+    {
+      "uid": 127,
+      "password": "",
+      "flag": 0,
+      "accountName": "蓝领贷",
+      "userName": "lanlingdai"
+    },
+    {
+      "uid": 128,
+      "password": "",
+      "flag": 0,
+      "accountName": "上海市浦东新区陆家嘴互联网金融协会",
+      "userName": "lgw"
+    },
+    {
+      "uid": 129,
+      "password": "",
+      "flag": 0,
+      "accountName": "苟超",
+      "userName": "gouchao"
+    },
+    {
+      "uid": 130,
+      "password": "",
+      "flag": 0,
+      "accountName": "徐波",
+      "userName": "xubo"
+    },
+    {
+      "uid": 131,
+      "password": "",
+      "flag": 0,
+      "accountName": "王文杰",
+      "userName": "wangwenjie"
+    },
+    {
+      "uid": 132,
+      "password": "",
+      "flag": 0,
+      "accountName": "高姗",
+      "userName": "gaoshan"
+    },
+    {
+      "uid": 133,
+      "password": "",
+      "flag": 0,
+      "accountName": "超哥支付宝demo测试",
+      "userName": "zfb_demo"
+    }
+  ]
+}

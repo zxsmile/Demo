@@ -1,0 +1,15 @@
+{
+  "name": "textzx",
+  "version": "0.0.0",
+  "description": "这是一个测试包，千万不要下载",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text",
+    "zx"
+  ],
+  "author": "zxsmile",
+  "license": "ISC"
+}

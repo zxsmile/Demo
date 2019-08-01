@@ -1,0 +1,143 @@
+* {
+	font-family: "ËÎÌו", sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+img {
+border: 0;
+}
+body {
+	background-color: #CCCCCC;
+	background-image: url(../img/body_bg.gif);
+	text-align: center;
+}
+#box {
+	background-color: #FFFFFF;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #990066;
+	border-right-color: #990066;
+	border-bottom-color: #990066;
+	border-left-color: #990066;
+	width: 770px !important;
+	width /**/:/**/772px;
+}
+#logo {
+	float: left;
+	width: 260px;
+	background-color: #009999;
+}
+#nav {
+	background-color: #009999;
+	background-image: url(../img/nav_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 130px;
+	width: 510px;
+	float: right;
+}
+#nav ul {
+	margin-top: 100px;
+	margin-left: 80px;
+	list-style-type: none;
+}
+#nav li {
+	float: left;
+}
+#main {
+	float: left;
+	width: 457px;
+}
+#links {
+	background-image: url(../img/links_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 313px;
+	float: right;
+	padding-bottom: 10px;
+}
+#footer {
+	clear: both;
+	width: 770px;
+	background-image: url(../img/footer_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 1px;
+	line-height: 24px;
+}
+a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+a:hover {
+	color: #990066;
+	text-decoration: none;
+}
+#nav a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 46px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+#nav a:link {
+	color: #FFFFFF;
+}
+#nav a:visited {
+	color: #CCFFFF;
+}
+#nav a:hover {
+	color: #FFFFCC;
+	background-image: url(../img/nav_hover_bg.gif);
+	background-repeat: no-repeat;
+}
+h1 {
+	font-weight: bold;
+	color: #990066;
+	float: left;
+	padding-left: 21px;
+	line-height: 22px;
+	padding-right: 11px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 20px;
+}
+table {
+	clear: both;
+	border-collapse: collapse;
+}
+
+.f_clear:after {
+    content: "."; 
+    display: block;
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.f_clear {
+	display: inline-table;
+}
+/* Hides from IE-mac \*/
+* html .f_clear {
+	height: 1%;
+}
+.f_clear {
+	display: block;
+}
+/* End hide from IE-mac */

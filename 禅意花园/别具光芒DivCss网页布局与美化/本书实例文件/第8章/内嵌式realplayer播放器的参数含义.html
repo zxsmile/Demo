@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>内嵌式realplayer播放器的参数含义</title>
+<style type="text/css">
+<!--
+* {
+margin: 0px;
+padding: 0px;
+}
+body {
+font:14px "宋体", sans-serif;
+padding:10px;
+}
+h1 {
+font-size:14px;
+font-weight: bold;
+line-height: 2em;
+background: #CCC;
+border-width: 1px 7px;
+border-style: dashed double;
+border-color: #666;
+text-align: center;
+}
+dl {
+margin:20px 0;
+border:1px solid #666;
+}
+dt {
+background: #CFF;
+border-top: 1px dotted #3CF;	
+padding:5px 10px;
+}
+dd {
+border-top: 1px dotted #ccc;	
+padding:5px 3em;
+}
+-->
+</style>
+</head>
+
+<body>
+<h1>内嵌式realplayer播放器的参数含义</h1>
+<dl>
+  <dt>autostart</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：指定是否自动播放指定的源文件。</dd>
+  <dt>backgroundcolor</dt>
+  <dd>属性：任何用符号“#”开头的16进制数值或是任何预定义的颜色</dd>
+  <dd>作用：指定图像窗口的背景颜色。</dd>
+  <dt>center</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：指定片断使用初始编码大小播放，并且在图像窗口的中央。</dd> 
+  <dt>classid</dt>
+  <dd>属性：clsid：cfcdaa03-8be4-1lcf-b84b0020afbbccfa:**</dd>
+  <dd>作用：用于指定activex控件的唯一的字符串标示，可以认出嵌入的realpalyer播放器。</dd>
+  <dt>console</dt>
+  <dd>属性：任何字符串</dd>
+  <dd>作用：可以将各种不同的realplayer控制聚集在网页上，这样它们可以交互使用或是保持独立，而且互相不影响。</dd>
+  <dt>controls</dt>
+  <dd>属性：imagewindow，all，controlpanel，plavbutton，playonlybutton，  pausebutton,stopbutton，ffctrl，rwctrl，mutectrl，mutevolume，volumeslider， positionslider,tacctrl，homectrl，infovolumepanel，infopanel，statusbar， statusfield，positionfield</dd>
+  <dd>作用：可以让你指定那些控制是可见的。</dd>
+  <dt>height</dt>
+  <dd>属性：任何整数值</dd>
+  <dd>作用：指定realplayer元素的高度，单位:像素。</dd>
+  <dt>id</dt>
+  <dd>属性：任何字符串</dd>
+  <dd>作用：为标签中的realplayer元素指定名字。</dd>
+  <dt>imagestatus</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：指定是否在图像窗口中显示状态信息，默认值是true</dd>
+  <dt>loop</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：可以让你指定片断是否无限循环</dd>
+  <dt>maintainaspect</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：默认realplayer拉伸所有的片断来充满整个图像窗口。</dd>
+  <dt>name</dt>
+  <dd>属性：任何字符串</dd>
+  <dd>作用：为标签中的realplayer元素指定名字(在标签中使用id)。</dd>
+  <dt>nojava</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：避免启动java虚拟机。</dd>
+  <dt>nolabels</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：可以禁止显示标题或是版权信息。</dd>
+  <dt>nologo</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：避免realplayer启动时在图像窗口中显示。</dd>
+  <dt>numloop</dt>
+  <dd>属性：任何整数值</dd>
+  <dd>作用：让你能够指定文件片循环的次数，不需要参数loop。</dd>
+  <dt>prefetch</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：指定在播放前，realplayer是否可以获得流描述信息，默认值是false。</dd>
+  <dt>region</dt>
+  <dd>属性：任何字符串</dd>
+  <dd>作用：同smil一起使用，允许你指定使用html代替smil。</dd>
+  <dt>scriptcallbacks</dt>
+  <dd>属性：用逗号分割的列表</dd>
+  <dd>作用：指定浏览器的回调监控。</dd>
+  <dt>shuffle</dt>
+  <dd>属性：true或是false</dd>
+  <dd>作用：同多文件片的ram文件或是smil文件一起使用，可以让realplayer随机播放列表中的文件。</dd>
+  <dt>src</dt>
+  <dd>属性：任何合法的相对或是完整的url</dd>
+  <dd>作用：指定播放的文件或是源文件的地址。</dd>
+  <dt>type</dt>
+  <dd>属性：字符串</dd>
+  <dd>作用：为嵌入插件指定mime类型。</dd>
+  <dt>width</dt>
+  <dd>属性：任何整数值</dd>
+  <dd>作用：指定realplayer元素的宽度。</dd>
+</dl>
+</body>
+</html>

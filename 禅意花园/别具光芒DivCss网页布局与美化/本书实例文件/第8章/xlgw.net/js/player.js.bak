@@ -1,0 +1,5 @@
+function coolplayer_rm(id,src,width,height,autoplay,loop)
+{
+var player='<embed src="'+src+'" type="audio/x-pn-realaudio-plugin" autostart="'+autoplay+'" loop="'+loop+'" console="clip'+id+'" '+'width="'+width+'" height="'+height+'" controls="ControlPanel"></embed>';
+writeln(player);
+}
