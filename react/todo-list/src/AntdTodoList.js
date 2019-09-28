@@ -3,6 +3,7 @@ import 'antd/dist/antd.css'
 import {Input,Button,List} from 'antd'
 import store from './store'
 import {getInputChangeAction,getAddItemAction,getDeleteItemAction} from './store/actionCreaters'
+import AntdTodoListUI from './AntdTodoListUI'
 
 
 class AntdTodoList extends Component{
@@ -12,28 +13,18 @@ class AntdTodoList extends Component{
        this.handleChangeInput=this.handleChangeInput.bind(this)
        this.changeInputValue = this.changeInputValue.bind(this)
        this.handleBtnClick = this.handleBtnClick.bind(this)
-       //this.handleDeleteItem = this.handleDeleteItem.bind(this)
+       this.handleDeleteItem = this.handleDeleteItem.bind(this)
        store.subscribe(this.changeInputValue)
     }
     render() {
-        return  (
-            <div style={{marginTop:"10px",marginLeft:"10px"}}> 
-                <div>
-                <Input placeholder="default size" onChange={this.handleChangeInput} value={this.state.inputValue} style={{marginRight:"10px",width:'300px'}} />
-                <Button type="primary" onClick={this.handleBtnClick}>提交</Button>
-                </div>
-                <List
-                style={{marginTop:"10px",width:'300px'}}
-                bordered
-                dataSource={this.state.list}
-                renderItem={(item,index) => (
-                    <List.Item onClick={this.handleDeleteItem.bind(this,index)}>
-                     {item}
-                    </List.Item>
-                )}
+        return  <AntdTodoListUI 
+                 handleChangeInput={this.handleChangeInput} 
+                 inputValue={this.state.inputValue}
+                 handleBtnClick={this.handleBtnClick}
+                 list={this.state.list}
+                 handleDeleteItem={this.handleDeleteItem}
                 />
-            </div>
-        )
+             
     }
 
     handleChangeInput(e) {

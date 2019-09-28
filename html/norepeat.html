@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ var lengthOfLongestSubstring = function(s) {
+    var str = ''
+    var maxLength = 0
+    var len = s.length
+     for(var i=0;i<len;i++){
+         var char = s.charAt(i)
+         var index = str.indexOf(char)
+         if(index ==-1){
+             str+=char
+             maxLength = maxLength<str.length?str.length:maxLength
+         }else{
+             str = str.substr(index+1)+char
+         }
+     }
+     console.log(maxLength)
+     return maxLength
+};
+
+lengthOfLongestSubstring('zbxdd')
+
+</script>
+</body>
+</html>
