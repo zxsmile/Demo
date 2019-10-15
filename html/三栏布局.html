@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .box{
+            border: 1px solid goldenrod;
+            display:grid;
+            grid-template-columns: 100px auto 100px;
+            grid-template-rows: 100px;
+        }
+        .left{
+            background-color: green;
+            /* width:100px;
+            height:100px;
+            float:left; */
+        }
+        .center{
+            background-color: aqua;
+            /* overflow: hidden;
+            height:100px; */
+        }
+        .right{
+            background-color: red;
+            /* width:100px;
+            height:100px;
+            float:right; */
+        }
+</style>
+</head>
+<body>
+    <div class='box'>
+        <div class='left'>left</div>
+        <div class='right'>right</div>
+        <div class='center'></div>
+    </div>
+</body>
+</html>
