@@ -11,7 +11,7 @@ function ajax(url,fuSucc,fnFaild){
         oAjax=new ActiveXObject("Microsoft.XMLHTTP");
     }
     
-    oAjax.open("get",url,true);
+    oAjax.open("put",url,true);
     oAjax.send();
     oAjax.onreadystatechange=function(){
       
