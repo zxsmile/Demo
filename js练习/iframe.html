@@ -10,7 +10,8 @@
            scrolling="auto" id="frame1" name="ifr1">
      
        </iframe> 
-       <p>hello</p>
+       <div>hello</div>
+       
 <script>
        
     var iframe = document.getElementById("frame1"); 
@@ -18,12 +19,14 @@
    
     iframe.onload=function(){
          var iwindow = iframe.contentWindow;
-         var idocument = iframe.contentDocument;
+        //  var idocument = iframe.contentDocument;
         //  console.log(window.frames['ifr1'].window);
         //  console.dir(document.getElementById("frame1").contentWindow);
+        console.log(window.frames['frame1'])
     }
    
-     
+ 
+    
  </script>
         
     </body>
