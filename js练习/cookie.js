@@ -1,7 +1,7 @@
 function setCookie(name,value,iDay){
     var oDate=new Date();
     oDate.setDate(oDate.getDate()+iDay);
-    document.cookie=name+'='+value+';expires='+oDate;
+    document.cookie=name+'='+value+';expires='+oDate+';path=/E:/Demo';
 }
 
 function getCookie(name){

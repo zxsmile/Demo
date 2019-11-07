@@ -3,22 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>ajax</title>
-        <script src="ajax.js"></script>
-        <script>
-             window.onload=function(){
-                 var oBtn=document.getElementById("butn1");
-                 oBtn.onclick=function(){
-                     ajax("abc.txt",function(str){
-                          alert(str);
-                     },function(){
-                         alert("faild");
-                     })
-                 }
-                
-             }
-        </script>
     </head>
     <body>
         <input id="butn1" type="button" value="读取文件">
+        <script src='ajax.js'></script>
+        <script >
+       
+            var oBtn=document.getElementById("butn1");
+            oBtn.onclick=function(){
+                ajax("http://localhost:8081?name=milk",function(){
+                   //   alert(str);
+                   alert('suss')
+                },function(){
+                    alert("faild");
+                })
+            }
+        </script>
     </body>
 </html>

@@ -1,5 +1,5 @@
 var express = require('express');
-var fs = require('fs');
+var fs = require('fs'); //读取ajax.html文件
 var server = new express();
 server.use('/',function(req,res){
     console.log(req.url)
@@ -12,5 +12,6 @@ server.use('/',function(req,res){
         }
         res.end();
     })
+  
 })
 server.listen(8080);
