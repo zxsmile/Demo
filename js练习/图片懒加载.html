@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+         img {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+            margin-bottom: 100px; 
+        }   
+    </style>
+</head>
+<body>
+    <div class="img-warpper">
+        <img class="lazyload" data-original="http://pic27.nipic.com/20130313/9252150_092049419327_2.jpg">
+     
+        <img class="lazyload" data-original="http://pic27.nipic.com/20130313/9252150_092049419327_2.jpg">
+      
+        <img class="lazyload" data-original="http://pic27.nipic.com/20130313/9252150_092049419327_2.jpg">
+      
+        <img class="lazyload" data-original="http://pic27.nipic.com/20130313/9252150_092049419327_2.jpg">
+      
+        <img class="lazyload" data-original="http://pic27.nipic.com/20130313/9252150_092049419327_2.jpg">
+      </div>
+      <script>
+           
+            function loadImg(top){
+                var imgs = document.getElementsByTagName('img')
+                var top = document.documentElement.scrollTop +document.documentElement.clientHeight
+                var len = 0
+                for(var i=len;i<imgs.length;i++){
+                      if(imgs[i].offsetTop <= top){
+                        imgs[i].src =imgs[i].getAttribute('data-original')
+                          len = i              
+                    }
+                }
+            }
+            
+            function debounce(fn) {
+                // 函数防抖：用户停止操作之后触发
+                clearTimeout(this.timer);
+                this.timer = setTimeout(function() {
+                    fn();
+                }, 1000);
+            }
+            document.addEventListener('scroll',function(){
+                   var oldscrollTop = 0
+                  if(document.documentElement.scrollTop-oldscrollTop>500){
+                          loadImg()
+                          oldscrollTop = document.documentElement.scrollTop
+                  }else if(document.documentElement.scrollTop-oldscrollTop<0){
+                       return
+                  }else{
+                      debounce(loadImg)
+                  }
+                
+            })
+      </script>
+</body>
+</html>
