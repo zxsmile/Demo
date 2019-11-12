@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        .box{
+            position:relative;
+            height: 400px;
+        }
+        .left{
+            position:absolute;
+            background-color: green;
+            width:100px;
+            top:0;
+            bottom:0;
+        }
+        .center{
+            position:absolute;
+            background-color: aqua;
+            left:100px;
+            right:100px;
+            bottom:0;
+            top:0;
+        }
+        .right{
+            position:absolute;
+            background-color: red;
+            width:100px;
+            right:0;
+            bottom:0;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+    <div class='box'>
+        <div class='left'>left</div>
+        <div class='center'>center</div>
+        <div class='right'>right</div>
+    </div>
+</body>
+</html>
