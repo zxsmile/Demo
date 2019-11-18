@@ -7,15 +7,21 @@
         .block{
             width:100px;
             height:100px;
-            border-radius: 50%;
+           
             background: linear-gradient(180deg,pink,deepskyblue);
+            /* transition: all 1s; */
             margin: 0 auto;
-            animation: tanqiu 2s ease-in infinite alternate;
+            /* animation: tanqiu 2s ease-in infinite alternate; */
+            transition:height 1s ease 1s;
+        }
+
+        div:hover{
+                transform: scaleY(2)
         }
         /*animation:自定义名称 动画执行时间 速度曲线 执行次数 逆向播放方法*/
-        @keyframes tanqiu {
+        /* @keyframes tanqiu { */
         /*写法1.将动画时间进行时间段划分，分别规定动画效果*/
-            10%{
+            /* 10%{
                 margin-top:600px;
             }
             40%{
@@ -35,11 +41,17 @@
             }
             90%{
                 margin-top:600px;
-            }
-        }
+            } */
+        /* } */
     </style>
 </head>
 <body>
-    <div class="block"></div>
+    <div class="block" id='anim'></div>
+    <script>
+         var anim = document.getElementById("anim");
+         anim.addEventListener("webkitTransitionEnd", function(){
+             console.log('333')
+         }, false);
+    </script>
 </body>
 </html>
