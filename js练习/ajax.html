@@ -9,15 +9,23 @@
         <script src='ajax.js'></script>
         <script >
        
-            var oBtn=document.getElementById("butn1");
-            oBtn.onclick=function(){
-                ajax("http://localhost:8081?name=milk",function(){
-                   //   alert(str);
-                   alert('suss')
-                },function(){
-                    alert("faild");
+            // var oBtn=document.getElementById("butn1");
+            // oBtn.onclick=function(){
+            //     ajax("http://localhost:8081?name=milk",function(){
+            //        //   alert(str);
+            //        alert('suss')
+            //     },function(){
+            //         alert("faild");
+            //     })
+            // }
+            setInterval(function(){
+                ajax('http://localhost:8080',function(){
+                    console.log('成功')
+                    },function(){
+                        console.log('失败')
                 })
-            }
+            },1000)
+
         </script>
     </body>
 </html>
