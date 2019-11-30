@@ -9,22 +9,25 @@
         <script src='ajax.js'></script>
         <script >
        
-            // var oBtn=document.getElementById("butn1");
-            // oBtn.onclick=function(){
-            //     ajax("http://localhost:8081?name=milk",function(){
-            //        //   alert(str);
-            //        alert('suss')
-            //     },function(){
-            //         alert("faild");
+            var oBtn=document.getElementById("butn1");
+            oBtn.onclick=function(){
+                ajax("http://localhost:8080?name=milk",function(){
+                    
+                   alert('suss')
+                //    ajax("http://localhost:8080?name=milk",function(){
+                //        alert('第二次')
+                //    })
+                },function(){
+                    alert("faild");
+                },3000)
+            }
+            // setInterval(function(){
+            //     ajax('http://localhost:8080',function(){
+            //         console.log('成功')
+            //         },function(){
+            //             console.log('失败')
             //     })
-            // }
-            setInterval(function(){
-                ajax('http://localhost:8080',function(){
-                    console.log('成功')
-                    },function(){
-                        console.log('失败')
-                })
-            },1000)
+            // },1000)
 
         </script>
     </body>
