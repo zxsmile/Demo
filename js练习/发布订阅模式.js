@@ -23,7 +23,7 @@ var event={
         var key = Array.prototype.shift.call(arguments)  //shift()方法从数组中删除数组的第一个元素，并返回该元素的值，会改变原数组
         var fns = this.clientListen[key]
 
-        if(!fns||fns.length==0){
+        if(!fns||fns.length===0){
             return false
         }
 
