@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点透问题</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+        #A{ /*灰色色半透明遮盖层A*/
+            width: 300px;
+            height: 300px;
+            background-color: rgba(255,0,0,0.25); 
+            position: absolute;  
+            top:0;    
+        }
+        #B{ /*黄色内容层B*/
+            width: 240px;
+            height: 240px;
+            background-color: yellow;
+        }
+        #console{ /*绿色状态输出框*/
+            border: 1px solid green;
+            position: absolute;
+            top: 300px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="B"></div>
+    <div id="A">
+       <a href="https://github.com/zxsmile">链接</a>
+    </div>
+    <div id="console"></div>
+    <script>
+        var div1 = document.getElementById("A");
+        var div2 = document.getElementById("B");
+        var con = document.getElementById('console');
+        function handle(e){
+            var tar = e.target, eve = e.type;
+            var ele = document.createElement("p");
+            ele.innerHTML = "target:"+ tar.id + " event:" + eve ;
+            con.appendChild(ele);
+            if(tar.id === "A"){
+                div1.style.display = "none";
+            }
+        }
+
+        div2.addEventListener("click",handle);
+        div1.addEventListener("touchend",handle);
+        div1.addEventListener("touchstart",handle);
+    </script>
+</body>
+</html>

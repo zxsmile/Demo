@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      *{
+          margin:0;
+          padding:0;
+        }
+        
+        .outerbox{
+            width:320px;
+            height:200px;
+            margin:0 auto;
+            position:relative;
+            top:100px;
+        }
+        .imgbox{
+            width:320px;
+            height:200px;
+            background-color: chartreuse;
+            position:relative;
+            left:0;
+            padding:10px 0;
+        }
+        
+        img{
+            width:300px;
+            height:200px;
+            margin:0 10px;
+            position:absolute;
+        }
+         
+        .signbox{
+            position:absolute;
+            bottom:8px;
+        }
+        span{
+            width:10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            background-color: #ccc;
+            margin-left: 3px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class='outerbox'>
+        <div class='imgbox'>
+            <img src="images\timg1.jpg"/>
+            <img src="images\lovely6.jpg"/>
+            <img src="images\lovely5.jpg"/>
+        </div>
+        <div class='signbox'>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <script>
+         
+         //导航居中
+
+         var outerBox = document.getElementsByClassName('outerbox')[0]
+         var signBox = document.getElementsByClassName('signbox')[0]
+         signBox.style.left = (outerBox.offsetWidth-signBox.offsetWidth)/2+'px';
+         
+         var imgBox = document.getElementsByClassName('imgbox')[0]
+         var imgbox = document.getElementsByTagName('img') 
+         var span = document.getElementsByTagName('span')
+        
+   
+         function initMove(index){
+            for(var i=0;i<imgbox.length;i++){
+                imgbox[i].style.opacity = 0
+                span[i].style.background = '#ccc'
+            }
+
+            imgbox[index].style.opacity = 1
+            span[index].style.background = 'red'
+            return index
+        }
+ 
+         var index=1;
+         var timer
+
+         function auto(index){
+            timer = setInterval(function(){
+                if(index>=imgbox.length){
+                    index = 0
+                }
+                initMove(index)
+                index++
+            },2000)
+        }
+
+        initMove(0)
+        auto(index)
+        
+        //导航
+
+        for(var i=0; i<span.length;i++){
+             span[i].num = i
+             span[i].onclick=function(){
+                 clearInterval(timer)
+                 var count=initMove(this.num)
+                 auto(count++)
+             }
+        }
+        
+        imgBox.onmouseenter=function(){
+            console.log('666')
+        }
+        
+    </script>
+</body>
+</html>
