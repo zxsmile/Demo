@@ -1,0 +1,44 @@
+font-dpr($font-size)
+  font-size: $font-size
+  [data-dpr='2'] &
+    font-size: ($font-size * 2)
+  [data-dpr='3'] &
+    font-size: ($font-size * 3)
+size-dpr($size)
+  for $property in $properties
+    {$property}: $size
+    [data-dpr='2'] &
+      {$property}: ($size * 2)
+    [data-dpr='3'] &
+      {$property}: ($size * 3)
+text-overflow()
+  width: 100%
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+x-scroll()
+  overflow-y: hidden
+  overflow-x: scroll
+  -webkit-overflow-scrolling: touch
+  white-space: nowrap
+y-scroll()
+  overflow-x: hidden
+  overflow-y: scroll
+  -webkit-overflow-scrolling: touch
+break-word()
+  word-wrap: break-word
+  white-space: normal
+border-box()
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+display-flex()
+  display: flex
+  display: -webkit-flex
+  display: -webkit-box
+  display: -ms-flexbox
+flex-column()
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
