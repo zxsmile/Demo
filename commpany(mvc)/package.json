@@ -25,7 +25,7 @@
     "koa-router": "v7.2.1",
     "koa-session": "^5.4.0",
     "lodash": "^4.17.4",
-    "mongoose": "^5.0.17",
+    "mongoose": "^5.7.5",
     "nuxt": "^1.0.0-rc11",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
