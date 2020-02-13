@@ -84,6 +84,8 @@ var a =1
 
  */
 
+console.log(String.raw({ raw: ['foo', 'bar'] }, 1 + 2,6) )
+
 
 
 
