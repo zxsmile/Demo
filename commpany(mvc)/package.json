@@ -24,7 +24,7 @@
     "koa-bodyparser": "^4.2.0",
     "koa-router": "v7.2.1",
     "koa-session": "^5.4.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "mongoose": "^5.0.17",
     "nuxt": "^1.0.0-rc11",
     "stylus": "^0.54.5",
